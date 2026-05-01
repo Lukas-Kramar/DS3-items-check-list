@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DS3 — Collection Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">Dark Souls III</h1>
+      <p class="site-subtitle">Collection Tracker</p>
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link active">Dashboard</a>
+        <a href="weapons.html" class="nav-link">Weapons</a>
+        <a href="spells.html" class="nav-link">Spells</a>
+        <a href="rings.html" class="nav-link">Rings</a>
+        <a href="armor.html" class="nav-link">Armor</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="dashboard-main">
+    <div class="dashboard-grid">
+      <a class="dash-card" href="weapons.html" id="card-weapons">
+        <h2 class="dash-title">Weapons</h2>
+        <div class="progress-bar dash-bar">
+          <div class="progress-bar-fill" style="width:0%"></div>
+        </div>
+        <div class="dash-footer">
+          <span class="dash-count">0 / 0</span>
+          <span class="dash-pct">0%</span>
+        </div>
+      </a>
+
+      <a class="dash-card" href="spells.html" id="card-spells">
+        <h2 class="dash-title">Spells</h2>
+        <div class="progress-bar dash-bar">
+          <div class="progress-bar-fill" style="width:0%"></div>
+        </div>
+        <div class="dash-footer">
+          <span class="dash-count">0 / 0</span>
+          <span class="dash-pct">0%</span>
+        </div>
+      </a>
+
+      <a class="dash-card" href="rings.html" id="card-rings">
+        <h2 class="dash-title">Rings</h2>
+        <div class="progress-bar dash-bar">
+          <div class="progress-bar-fill" style="width:0%"></div>
+        </div>
+        <div class="dash-footer">
+          <span class="dash-count">0 / 0</span>
+          <span class="dash-pct">0%</span>
+        </div>
+      </a>
+
+      <a class="dash-card" href="armor.html" id="card-armor">
+        <h2 class="dash-title">Armor</h2>
+        <div class="progress-bar dash-bar">
+          <div class="progress-bar-fill" style="width:0%"></div>
+        </div>
+        <div class="dash-footer">
+          <span class="dash-count">0 / 0</span>
+          <span class="dash-pct">0%</span>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <script src="dashboard-bundle.min.js"></script>
+</body>
+</html>

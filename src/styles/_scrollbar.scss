@@ -1,0 +1,22 @@
+@use 'variables' as *;
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: $bg-dark;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $surface-2;
+  border-radius: $radius-pill;
+
+  &:hover { background: $accent-gold; }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $surface-2 $bg-dark;
+}

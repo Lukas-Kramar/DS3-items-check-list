@@ -1,0 +1,218 @@
+@use 'variables' as *;
+@use 'sass:color';
+
+.controls-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.section-heading {
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: $accent-gold;
+  margin-bottom: 0.25rem;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.control-label {
+  font-size: 0.78rem;
+  color: $text-secondary;
+  letter-spacing: 0.04em;
+}
+
+.control-input,
+.control-select {
+  background: $surface-1;
+  border: 1px solid $border-subtle;
+  border-radius: $radius-md;
+  color: $text-primary;
+  padding: 0.45rem 0.65rem;
+  font-size: 0.85rem;
+  width: 100%;
+  outline: none;
+  transition: border-color $trans-fast, box-shadow $trans-fast;
+  appearance: none;
+
+  &:focus {
+    border-color: $accent-ember;
+    box-shadow: 0 0 0 2px rgba($accent-ember, 0.2);
+  }
+
+  option { background: $surface-1; }
+}
+
+.control-select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%239a8a74'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.6rem center;
+  padding-right: 2rem;
+  cursor: pointer;
+}
+
+// Toggle switches
+.toggle-row {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-label {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: $text-secondary;
+  user-select: none;
+
+  &:hover { color: $text-primary; }
+}
+
+.toggle-checkbox { display: none; }
+
+.toggle-track {
+  width: 34px;
+  height: 18px;
+  background: $surface-2;
+  border: 1px solid $border-subtle;
+  border-radius: $radius-pill;
+  position: relative;
+  flex-shrink: 0;
+  transition: background $trans-fast, border-color $trans-fast;
+
+  .toggle-checkbox:checked + & {
+    background: rgba($accent-ember, 0.25);
+    border-color: $accent-ember;
+  }
+}
+
+.toggle-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  background: $text-dim;
+  border-radius: 50%;
+  transition: transform $trans-fast, background $trans-fast;
+
+  .toggle-checkbox:checked + .toggle-track & {
+    transform: translateX(16px);
+    background: $accent-ember;
+    box-shadow: 0 0 6px rgba($accent-ember, 0.6);
+  }
+}
+
+// Buttons
+.btn {
+  padding: 0.5rem 0.85rem;
+  border-radius: $radius-md;
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  transition: background $trans-fast, box-shadow $trans-fast, opacity $trans-fast;
+  text-align: center;
+  border: 1px solid transparent;
+
+  &:active { opacity: 0.8; }
+}
+
+.btn-danger {
+  background: $blood-red;
+  color: $text-primary;
+  border-color: color.adjust($blood-red, $lightness: -8%);
+
+  &:hover { background: color.adjust($blood-red, $lightness: 6%); box-shadow: 0 0 10px rgba($blood-red, 0.4); }
+}
+
+.btn-secondary-danger {
+  background: $surface-1;
+  color: color.adjust($blood-red, $lightness: 20%);
+  border-color: $blood-red;
+
+  &:hover { background: rgba($blood-red, 0.15); }
+}
+
+.btn-secondary {
+  background: $surface-1;
+  color: $accent-ember;
+  border-color: $border-subtle;
+
+  &:hover { border-color: $accent-ember; box-shadow: 0 0 8px rgba($accent-ember, 0.2); }
+}
+
+// Stats
+.stats-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stats-toggle-btn {
+  background: none;
+  border: none;
+  color: $text-secondary;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: transform $trans-fast, color $trans-fast;
+
+  &:hover { color: $accent-ember; }
+}
+
+.stats-container {
+  overflow: hidden;
+  transition: max-height 300ms ease;
+  max-height: 600px;
+
+  &.collapsed {
+    max-height: 0;
+  }
+
+  &.collapsed ~ * .stats-toggle-btn,
+  & ~ .stats-toggle-btn {
+    transform: rotate(-90deg);
+  }
+}
+
+.stat-row {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0;
+}
+
+.stat-label {
+  font-size: 0.72rem;
+  color: $text-secondary;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stat-bar-wrap {
+  width: 60px;
+  height: 4px;
+  background: $surface-2;
+  border-radius: $radius-pill;
+  overflow: hidden;
+}
+
+.stat-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, $accent-gold, $accent-bright);
+  border-radius: $radius-pill;
+  transition: width 400ms ease;
+}
+
+.stat-count {
+  font-size: 0.68rem;
+  color: $text-dim;
+  white-space: nowrap;
+}

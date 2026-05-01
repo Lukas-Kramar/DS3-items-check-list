@@ -1,0 +1,183 @@
+@use 'variables' as *;
+
+.weapon-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.75rem;
+}
+
+.no-results {
+  color: $text-secondary;
+  font-size: 0.9rem;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / -1;
+}
+
+.weapon-card {
+  background: $surface-1;
+  border: 1px solid $border-subtle;
+  border-radius: $radius-md;
+  padding: 0.85rem 1rem;
+  transition: border-color $trans-fast, box-shadow $trans-fast, opacity $trans-fast;
+  position: relative;
+
+  &:hover {
+    border-color: rgba($accent-ember, 0.45);
+    box-shadow: 0 0 14px rgba($accent-ember, 0.08), inset 0 0 0 1px rgba($accent-ember, 0.06);
+  }
+
+  &.obtained {
+    opacity: 0.55;
+    border-color: rgba($accent-gold, 0.2);
+
+    .weapon-name { text-decoration: line-through; text-decoration-color: $text-dim; }
+  }
+
+  &.has-note::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: $accent-gold;
+    box-shadow: 0 0 5px rgba($accent-gold, 0.6);
+  }
+}
+
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+}
+
+.card-title-group {
+  flex: 1;
+  min-width: 0;
+}
+
+.weapon-name {
+  font-size: 0.92rem;
+  color: $text-primary;
+  font-family: $font-heading;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// Custom checkbox
+.checkbox-wrap {
+  position: relative;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.weapon-checkbox {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+  margin: 0;
+}
+
+.checkmark {
+  position: absolute;
+  inset: 0;
+  background: $surface-2;
+  border: 1px solid $border-subtle;
+  border-radius: $radius-sm;
+  transition: background $trans-fast, border-color $trans-fast, box-shadow $trans-fast;
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: 2px solid $bg-base;
+    border-top: none;
+    border-left: none;
+    transform: rotate(45deg);
+  }
+
+  .weapon-checkbox:checked ~ & {
+    background: $accent-ember;
+    border-color: $accent-ember;
+    box-shadow: 0 0 8px rgba($accent-ember, 0.55);
+
+    &::after { display: block; }
+  }
+}
+
+// Note toggle button
+.note-toggle {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: $radius-sm;
+  background: $surface-2;
+  border: 1px solid $border-subtle;
+  color: $text-secondary;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color $trans-fast, color $trans-fast, background $trans-fast;
+  margin-top: 0;
+
+  &:hover {
+    border-color: $accent-ember;
+    color: $accent-ember;
+    background: rgba($accent-ember, 0.08);
+  }
+}
+
+// Note section
+.note-section {
+  margin-top: 0.65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+
+  &[hidden] { display: none; }
+}
+
+.note-textarea {
+  background: $bg-surface;
+  border: 1px solid $border-subtle;
+  border-radius: $radius-sm;
+  color: $text-primary;
+  padding: 0.5rem 0.65rem;
+  resize: vertical;
+  width: 100%;
+  min-height: 70px;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  outline: none;
+  transition: border-color $trans-fast, box-shadow $trans-fast;
+
+  &:focus {
+    border-color: $accent-ember;
+    box-shadow: 0 0 0 2px rgba($accent-ember, 0.15);
+  }
+
+  &::placeholder { color: $text-dim; }
+}
+
+.char-counter {
+  font-size: 0.7rem;
+  color: $text-dim;
+  text-align: right;
+
+  &.at-max { color: $blood-red; }
+}

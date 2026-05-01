@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DS3 — Weapons</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.min.css">
+</head>
+<body>
+  <div id="error-banner" class="error-banner" hidden></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">Dark Souls III</h1>
+      <p class="site-subtitle">Weapon Compendium</p>
+      <div class="progress-wrap">
+        <span id="progress-counter" class="progress-counter">0 / 0 weapons obtained</span>
+        <div class="progress-bar">
+          <div id="progress-bar-fill" class="progress-bar-fill" style="width:0%"></div>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link">Dashboard</a>
+        <a href="weapons.html" class="nav-link active">Weapons</a>
+        <a href="spells.html" class="nav-link">Spells</a>
+        <a href="rings.html" class="nav-link">Rings</a>
+        <a href="armor.html" class="nav-link">Armor</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-layout">
+    <aside class="sidebar">
+      <section class="controls-section">
+        <h2 class="section-heading">Filters</h2>
+        <div class="control-group">
+          <label for="search-input" class="control-label">Search</label>
+          <input type="search" id="search-input" class="control-input" placeholder="Weapon name…">
+        </div>
+        <div class="control-group">
+          <label for="filter-class" class="control-label">Weapon Class</label>
+          <select id="filter-class" class="control-select"></select>
+        </div>
+        <div class="control-group">
+          <label for="filter-damage" class="control-label">Damage Type</label>
+          <select id="filter-damage" class="control-select"></select>
+        </div>
+        <div class="control-group">
+          <label for="sort-select" class="control-label">Sort By</label>
+          <select id="sort-select" class="control-select">
+            <option value="name-asc">Name (A–Z)</option>
+            <option value="name-desc">Name (Z–A)</option>
+            <option value="class">Weapon Class</option>
+            <option value="obtained-last">Unobtained First</option>
+          </select>
+        </div>
+        <div class="toggle-row">
+          <label class="toggle-label" for="toggle-dlc">
+            <input type="checkbox" id="toggle-dlc" class="toggle-checkbox">
+            <span class="toggle-track"><span class="toggle-thumb"></span></span>
+            DLC Only
+          </label>
+        </div>
+        <div class="toggle-row">
+          <label class="toggle-label" for="toggle-unobtained">
+            <input type="checkbox" id="toggle-unobtained" class="toggle-checkbox">
+            <span class="toggle-track"><span class="toggle-thumb"></span></span>
+            Unobtained Only
+          </label>
+        </div>
+      </section>
+
+      <section class="controls-section danger-zone">
+        <h2 class="section-heading">Controls</h2>
+        <button id="btn-reset-checklist" class="btn btn-danger">Reset Checklist</button>
+        <button id="btn-reset-notes" class="btn btn-danger btn-secondary-danger">Reset Notes</button>
+      </section>
+
+      <section class="controls-section">
+        <h2 class="section-heading">Save Data</h2>
+        <button id="btn-export" class="btn btn-secondary">Export JSON</button>
+        <button id="btn-import" class="btn btn-secondary">Import JSON</button>
+        <input type="file" id="import-file" accept=".json" style="display:none">
+      </section>
+
+      <section class="controls-section">
+        <div class="stats-header">
+          <h2 class="section-heading">Progress by Class</h2>
+          <button id="stats-toggle" class="stats-toggle-btn" aria-label="Toggle stats">▾</button>
+        </div>
+        <div id="stats-container" class="stats-container">
+          <div id="stats-panel" class="stats-panel"></div>
+        </div>
+      </section>
+
+      <p class="keyboard-hint">Press <kbd>/</kbd> to focus search &nbsp;·&nbsp; <kbd>S</kbd> to toggle stats</p>
+    </aside>
+
+    <div class="content-area">
+      <div id="weapon-list" class="weapon-list"></div>
+    </div>
+  </main>
+
+  <script src="weapons-bundle.min.js"></script>
+</body>
+</html>

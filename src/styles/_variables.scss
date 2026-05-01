@@ -1,0 +1,30 @@
+// Color palette
+$bg-base:       #0e0e0e;
+$bg-dark:       #141414;
+$bg-surface:    #1c1a18;
+$surface-1:     #242220;
+$surface-2:     #2e2b28;
+$border-subtle: #3a3530;
+
+$accent-ember:  #c8922a;
+$accent-bright: #e8a830;
+$accent-gold:   #a07828;
+$blood-red:     #8b1a1a;
+$blood-red-dim: #6a1414;
+
+$text-primary:  #e8dcc8;
+$text-secondary:#9a8a74;
+$text-dim:      #6a5e50;
+
+// Typography
+$font-heading: 'Cinzel', serif;
+$font-body:    'Inter', system-ui, sans-serif;
+
+// Spacing
+$radius-sm: 4px;
+$radius-md: 6px;
+$radius-pill: 999px;
+
+// Transitions
+$trans-fast: 150ms ease;
+$trans-base: 250ms ease;

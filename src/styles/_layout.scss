@@ -1,0 +1,223 @@
+@use 'variables' as *;
+
+.site-header {
+  background: linear-gradient(180deg, $bg-dark 0%, $bg-surface 100%);
+  border-bottom: 1px solid $accent-gold;
+  padding: 1.25rem 1.5rem 0.75rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.7);
+}
+
+.header-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.site-title {
+  font-size: 2rem;
+  color: $accent-ember;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-shadow: 0 0 24px rgba($accent-ember, 0.4);
+}
+
+.site-subtitle {
+  color: $text-secondary;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-top: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.progress-wrap {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.6rem;
+}
+
+.progress-counter {
+  font-size: 0.9rem;
+  color: $text-secondary;
+  white-space: nowrap;
+}
+
+.progress-bar {
+  flex: 1;
+  min-width: 120px;
+  max-width: 360px;
+  height: 4px;
+  background: $surface-2;
+  border-radius: $radius-pill;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, $accent-gold, $accent-bright);
+  border-radius: $radius-pill;
+  transition: width 300ms ease;
+  box-shadow: 0 0 8px rgba($accent-bright, 0.5);
+}
+
+// Navigation bar
+.site-nav {
+  display: flex;
+  gap: 0.25rem;
+  padding-bottom: 0.5rem;
+  border-top: 1px solid rgba($border-subtle, 0.5);
+  padding-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $text-secondary;
+  text-decoration: none;
+  padding: 0.3rem 0.7rem;
+  border-radius: $radius-md;
+  border: 1px solid transparent;
+  transition: color $trans-fast, border-color $trans-fast, background $trans-fast;
+  font-family: $font-heading;
+
+  &:hover {
+    color: $text-primary;
+    border-color: $border-subtle;
+    background: $surface-1;
+  }
+
+  &.active {
+    color: $accent-ember;
+    border-color: rgba($accent-ember, 0.4);
+    background: rgba($accent-ember, 0.08);
+  }
+}
+
+.main-layout {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height: calc(100vh - 150px);
+}
+
+.sidebar {
+  width: 260px;
+  flex-shrink: 0;
+  background: $bg-surface;
+  border-right: 1px solid $border-subtle;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: sticky;
+  top: 150px;
+  height: calc(100vh - 150px);
+  overflow-y: auto;
+}
+
+.content-area {
+  flex: 1;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.error-banner {
+  background: $blood-red;
+  color: $text-primary;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.keyboard-hint {
+  padding-top: 0.75rem;
+  border-top: 1px solid $border-subtle;
+  font-size: 0.72rem;
+  color: $text-dim;
+  margin-top: auto;
+
+  kbd {
+    display: inline-block;
+    background: $surface-2;
+    border: 1px solid $border-subtle;
+    border-radius: $radius-sm;
+    padding: 0 4px;
+    font-size: 0.7rem;
+    color: $text-secondary;
+    font-family: $font-body;
+  }
+}
+
+// Dashboard layout
+.dashboard-main {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.25rem;
+}
+
+.dash-card {
+  display: block;
+  text-decoration: none;
+  background: $surface-1;
+  border: 1px solid $border-subtle;
+  border-radius: $radius-md;
+  padding: 1.25rem;
+  transition: border-color $trans-fast, box-shadow $trans-fast;
+
+  &:hover {
+    border-color: rgba($accent-ember, 0.45);
+    box-shadow: 0 0 12px rgba($accent-ember, 0.12), inset 0 0 0 1px rgba($accent-ember, 0.05);
+  }
+}
+
+.dash-title {
+  font-size: 1rem;
+  color: $accent-ember;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.dash-bar {
+  max-width: 100%;
+  margin-bottom: 0.6rem;
+  height: 6px;
+}
+
+.dash-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dash-count {
+  font-size: 0.82rem;
+  color: $text-secondary;
+}
+
+.dash-pct {
+  font-size: 0.82rem;
+  color: $accent-ember;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .main-layout { flex-direction: column; }
+  .sidebar {
+    width: 100%;
+    position: static;
+    height: auto;
+  }
+}

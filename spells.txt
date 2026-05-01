@@ -1,0 +1,103 @@
+=== MIRACLES ===
+Heal Aid
+Heal
+Med Heal
+Great Heal
+Soothing Sunlight
+Replenishment
+Bountiful Light
+Bountiful Sunlight
+Caressing Tears
+Tears of Denial
+Homeward
+Seek Guidance
+Sacred Oath
+Force
+Emit Force
+Wrath of the Gods
+Lightning Spear
+Great Lightning Spear
+Sunlight Spear
+Lightning Stake
+Lightning Storm
+Divine Pillars of Light
+Blessed Weapon
+Lightning Blade
+Darkmoon Blade
+Magic Barrier
+Great Magic Barrier
+Dark Blade
+Vow of Silence
+Dead Again
+Atonement
+Deep Protection
+Gnaw
+Dorhys' Gnawing
+Lifehunt Scythe
+Way of White Corona
+Projected Heal
+Lightning Arrow
+
+=== PYROMANCIES ===
+Fireball
+Fire Orb
+Bursting Fireball
+Great Chaos Fire Orb
+Chaos Bed Vestiges
+Fire Surge
+Fire Whip
+Firestorm
+Chaos Storm
+Great Combustion
+Sacred Flame
+Profaned Flame
+Poison Mist
+Toxic Mist
+Acid Surge
+Flash Sweat
+Profuse Sweat
+Iron Flesh
+Power Within
+Carthus Flame Arc
+Warmth
+Rapport
+Boulder Heave
+Black Flame
+Black Fire Orb
+Black Serpent
+
+=== SORCERIES ===
+Soul Arrow
+Great Soul Arrow
+Heavy Soul Arrow
+Great Heavy Soul Arrow
+Farron Dart
+Great Farron Dart
+Farron Hail
+Homing Soulmass
+Homing Crystal Soulmass
+Crystal Hail
+Soul Spear
+Crystal Soul Spear
+White Dragon Breath
+Soul Stream
+Soul Greatsword
+Farron Flashsword
+Magic Weapon
+Great Magic Weapon
+Crystal Magic Weapon
+Magic Shield
+Great Magic Shield
+Spook
+Aural Decoy
+Pestilent Mercury
+Cast Light
+Repair
+Hidden Weapon
+Hidden Body
+Chameleon
+Twisted Wall of Light
+Deep Soul
+Great Deep Soul
+Affinity
+Dark Edge

@@ -1,0 +1,2856 @@
+[
+    {
+        "id": "dagger",
+        "name": "Dagger",
+        "weaponClass": "Dagger",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "parrying-dagger",
+        "name": "Parrying Dagger",
+        "weaponClass": "Dagger",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "mail-breaker",
+        "name": "Mail Breaker",
+        "weaponClass": "Dagger",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "bandits-knife",
+        "name": "Bandit's Knife",
+        "weaponClass": "Dagger",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "rotten-ghru-dagger",
+        "name": "Rotten Ghru Dagger",
+        "weaponClass": "Dagger",
+        "damageTypes": [
+            "Physical",
+            "Poison"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "corvian-greatknife",
+        "name": "Corvian Greatknife",
+        "weaponClass": "Dagger",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "handmaids-dagger",
+        "name": "Handmaid's Dagger",
+        "weaponClass": "Dagger",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "scholars-candlestick",
+        "name": "Scholar's Candlestick",
+        "weaponClass": "Dagger",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "tailbone-short-sword",
+        "name": "Tailbone Short Sword",
+        "weaponClass": "Dagger",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "brigand-twindaggers",
+        "name": "Brigand Twindaggers",
+        "weaponClass": "Dagger",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "harpe",
+        "name": "Harpe",
+        "weaponClass": "Dagger",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "aquamarine-dagger",
+        "name": "Aquamarine Dagger",
+        "weaponClass": "Dagger",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "murky-hand-scythe",
+        "name": "Murky Hand Scythe",
+        "weaponClass": "Dagger",
+        "damageTypes": [
+            "Physical",
+            "Dark"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "shortsword",
+        "name": "Shortsword",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "long-sword",
+        "name": "Long Sword",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "broadsword",
+        "name": "Broadsword",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "broken-straight-sword",
+        "name": "Broken Straight Sword",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "astora-straight-sword",
+        "name": "Astora Straight Sword",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "lothric-knight-sword",
+        "name": "Lothric Knight Sword",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "barbed-straight-sword",
+        "name": "Barbed Straight Sword",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "dark-sword",
+        "name": "Dark Sword",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "clerics-candlestick",
+        "name": "Cleric's Candlestick",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "irithyll-straight-sword",
+        "name": "Irithyll Straight Sword",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "anris-straight-sword",
+        "name": "Anri's Straight Sword",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "sunlight-straight-sword",
+        "name": "Sunlight Straight Sword",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "morion-blade",
+        "name": "Morion Blade",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "lothrics-holy-sword",
+        "name": "Lothric's Holy Sword",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "gotthard-twinswords",
+        "name": "Gotthard Twinswords",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "valorheart",
+        "name": "Valorheart",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "ringed-knight-straight-sword",
+        "name": "Ringed Knight Straight Sword",
+        "weaponClass": "Straight Sword",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "bastard-sword",
+        "name": "Bastard Sword",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "claymore",
+        "name": "Claymore",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "hollowslayer-greatsword",
+        "name": "Hollowslayer Greatsword",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "firelink-greatsword",
+        "name": "Firelink Greatsword",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical",
+            "Fire",
+            "Magic",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "black-knight-sword",
+        "name": "Black Knight Sword",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "flamberge",
+        "name": "Flamberge",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "executioners-greatsword",
+        "name": "Executioner's Greatsword",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "wolf-knights-greatsword",
+        "name": "Wolf Knight's Greatsword",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "wolnirs-holy-sword",
+        "name": "Wolnir's Holy Sword",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "greatsword-of-judgment",
+        "name": "Greatsword of Judgment",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "storm-ruler",
+        "name": "Storm Ruler",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "moonlight-greatsword",
+        "name": "Moonlight Greatsword",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "twin-princes-greatsword",
+        "name": "Twin Princes' Greatsword",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical",
+            "Lightning",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "drakeblood-greatsword",
+        "name": "Drakeblood Greatsword",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical",
+            "Magic",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "onyx-blade",
+        "name": "Onyx Blade",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical",
+            "Fire",
+            "Dark"
+        ],
+        "isDLC": true,
+        "dlcName": "Ashes of Ariandel"
+    },
+    {
+        "id": "gaels-greatsword",
+        "name": "Gael's Greatsword",
+        "weaponClass": "Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "zweihander",
+        "name": "Zweihander",
+        "weaponClass": "Ultra Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "greatsword",
+        "name": "Greatsword",
+        "weaponClass": "Ultra Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "astora-greatsword",
+        "name": "Astora Greatsword",
+        "weaponClass": "Ultra Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "farron-greatsword",
+        "name": "Farron Greatsword",
+        "weaponClass": "Ultra Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "fume-ultra-greatsword",
+        "name": "Fume Ultra Greatsword",
+        "weaponClass": "Ultra Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "profaned-greatsword",
+        "name": "Profaned Greatsword",
+        "weaponClass": "Ultra Greatsword",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "cathedral-knight-greatsword",
+        "name": "Cathedral Knight Greatsword",
+        "weaponClass": "Ultra Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "black-knight-greatsword",
+        "name": "Black Knight Greatsword",
+        "weaponClass": "Ultra Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "lorians-greatsword",
+        "name": "Lorian's Greatsword",
+        "weaponClass": "Ultra Greatsword",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "lothric-knight-greatsword",
+        "name": "Lothric Knight Greatsword",
+        "weaponClass": "Ultra Greatsword",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "ringed-knight-paired-greatswords",
+        "name": "Ringed Knight Paired Greatswords",
+        "weaponClass": "Ultra Greatsword",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "splitleaf-greatsword",
+        "name": "Splitleaf Greatsword",
+        "weaponClass": "Halberd",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "scimitar",
+        "name": "Scimitar",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "falchion",
+        "name": "Falchion",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "shotel",
+        "name": "Shotel",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "carthus-curved-sword",
+        "name": "Carthus Curved Sword",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "carthus-shotel",
+        "name": "Carthus Shotel",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "pontiff-knight-curved-sword",
+        "name": "Pontiff Knight Curved Sword",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "painting-guardians-curved-sword",
+        "name": "Painting Guardian's Curved Sword",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "dancers-enchanted-swords",
+        "name": "Dancer's Enchanted Swords",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical",
+            "Magic",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "storm-curved-sword",
+        "name": "Storm Curved Sword",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "crescent-moon-sword",
+        "name": "Crescent Moon Sword",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "rotten-ghru-curved-sword",
+        "name": "Rotten Ghru Curved Sword",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical",
+            "Poison"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "sellsword-twinblades",
+        "name": "Sellsword Twinblades",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "warden-twinblades",
+        "name": "Warden Twinblades",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "follower-sabre",
+        "name": "Follower Sabre",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "Ashes of Ariandel"
+    },
+    {
+        "id": "demons-scar",
+        "name": "Demon's Scar",
+        "weaponClass": "Curved Sword",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "murakumo",
+        "name": "Murakumo",
+        "weaponClass": "Curved Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "exile-greatsword",
+        "name": "Exile Greatsword",
+        "weaponClass": "Curved Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "old-wolf-curved-sword",
+        "name": "Old Wolf Curved Sword",
+        "weaponClass": "Curved Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "carthus-curved-greatsword",
+        "name": "Carthus Curved Greatsword",
+        "weaponClass": "Curved Greatsword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "harald-curved-greatsword",
+        "name": "Harald Curved Greatsword",
+        "weaponClass": "Curved Greatsword",
+        "damageTypes": [
+            "Physical",
+            "Dark"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "uchigatana",
+        "name": "Uchigatana",
+        "weaponClass": "Katana",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "washing-pole",
+        "name": "Washing Pole",
+        "weaponClass": "Katana",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "black-blade",
+        "name": "Black Blade",
+        "weaponClass": "Katana",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "bloodlust",
+        "name": "Bloodlust",
+        "weaponClass": "Katana",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "chaos-blade",
+        "name": "Chaos Blade",
+        "weaponClass": "Katana",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "darkdrift",
+        "name": "Darkdrift",
+        "weaponClass": "Katana",
+        "damageTypes": [
+            "Physical",
+            "Dark"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "onikiri-and-ubadachi",
+        "name": "Onikiri and Ubadachi",
+        "weaponClass": "Katana",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "frayed-blade",
+        "name": "Frayed Blade",
+        "weaponClass": "Katana",
+        "damageTypes": [
+            "Physical",
+            "Dark"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "rapier",
+        "name": "Rapier",
+        "weaponClass": "Piercing Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "estoc",
+        "name": "Estoc",
+        "weaponClass": "Piercing Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "ricards-rapier",
+        "name": "Ricard's Rapier",
+        "weaponClass": "Piercing Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "irithyll-rapier",
+        "name": "Irithyll Rapier",
+        "weaponClass": "Piercing Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "crystal-sages-rapier",
+        "name": "Crystal Sage's Rapier",
+        "weaponClass": "Piercing Sword",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "crow-quills",
+        "name": "Crow Quills",
+        "weaponClass": "Piercing Sword",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "Ashes of Ariandel"
+    },
+    {
+        "id": "hand-axe",
+        "name": "Hand Axe",
+        "weaponClass": "Axe",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "battle-axe",
+        "name": "Battle Axe",
+        "weaponClass": "Axe",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "brigand-axe",
+        "name": "Brigand Axe",
+        "weaponClass": "Axe",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "dragonslayers-axe",
+        "name": "Dragonslayer's Axe",
+        "weaponClass": "Axe",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "thrall-axe",
+        "name": "Thrall Axe",
+        "weaponClass": "Axe",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "butcher-knife",
+        "name": "Butcher Knife",
+        "weaponClass": "Axe",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "man-serpent-hatchet",
+        "name": "Man Serpent Hatchet",
+        "weaponClass": "Axe",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "eleonora",
+        "name": "Eleonora",
+        "weaponClass": "Axe",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "winged-knight-twinaxes",
+        "name": "Winged Knight Twinaxes",
+        "weaponClass": "Axe",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "millwood-battle-axe",
+        "name": "Millwood Battle Axe",
+        "weaponClass": "Axe",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "Ashes of Ariandel"
+    },
+    {
+        "id": "greataxe",
+        "name": "Greataxe",
+        "weaponClass": "Greataxe",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "dragonslayer-greataxe",
+        "name": "Dragonslayer Greataxe",
+        "weaponClass": "Greataxe",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "black-knight-greataxe",
+        "name": "Black Knight Greataxe",
+        "weaponClass": "Greataxe",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "great-machete",
+        "name": "Great Machete",
+        "weaponClass": "Greataxe",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "yhorms-great-machete",
+        "name": "Yhorm's Great Machete",
+        "weaponClass": "Greataxe",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "earth-seeker",
+        "name": "Earth Seeker",
+        "weaponClass": "Greataxe",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "Ashes of Ariandel"
+    },
+    {
+        "id": "club",
+        "name": "Club",
+        "weaponClass": "Hammer",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "mace",
+        "name": "Mace",
+        "weaponClass": "Hammer",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "morning-star",
+        "name": "Morning Star",
+        "weaponClass": "Hammer",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "reinforced-club",
+        "name": "Reinforced Club",
+        "weaponClass": "Hammer",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "warpick",
+        "name": "Warpick",
+        "weaponClass": "Hammer",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "blacksmith-hammer",
+        "name": "Blacksmith Hammer",
+        "weaponClass": "Hammer",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "heysel-pick",
+        "name": "Heysel Pick",
+        "weaponClass": "Hammer",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "drang-hammers",
+        "name": "Drang Hammers",
+        "weaponClass": "Hammer",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "gargoyle-flame-hammer",
+        "name": "Gargoyle Flame Hammer",
+        "weaponClass": "Hammer",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "great-club",
+        "name": "Great Club",
+        "weaponClass": "Great Hammer",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "great-mace",
+        "name": "Great Mace",
+        "weaponClass": "Great Hammer",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "great-wooden-hammer",
+        "name": "Great Wooden Hammer",
+        "weaponClass": "Great Hammer",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "vordts-great-hammer",
+        "name": "Vordt's Great Hammer",
+        "weaponClass": "Great Hammer",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "old-kings-great-hammer",
+        "name": "Old King's Great Hammer",
+        "weaponClass": "Great Hammer",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "dragon-tooth",
+        "name": "Dragon Tooth",
+        "weaponClass": "Great Hammer",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "mornes-great-hammer",
+        "name": "Morne's Great Hammer",
+        "weaponClass": "Great Hammer",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "quakestone-hammer",
+        "name": "Quakestone Hammer",
+        "weaponClass": "Great Hammer",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "Ashes of Ariandel"
+    },
+    {
+        "id": "ledos-great-hammer",
+        "name": "Ledo's Great Hammer",
+        "weaponClass": "Great Hammer",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "caestus",
+        "name": "Caestus",
+        "weaponClass": "Fist",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "dark-hand",
+        "name": "Dark Hand",
+        "weaponClass": "Fist",
+        "damageTypes": [
+            "Physical",
+            "Dark"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "claw",
+        "name": "Claw",
+        "weaponClass": "Claw",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "manikin-claws",
+        "name": "Manikin Claws",
+        "weaponClass": "Claw",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "crow-talons",
+        "name": "Crow Talons",
+        "weaponClass": "Claw",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "Ashes of Ariandel"
+    },
+    {
+        "id": "spear",
+        "name": "Spear",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "winged-spear",
+        "name": "Winged Spear",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "partizan",
+        "name": "Partizan",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "rotten-ghru-spear",
+        "name": "Rotten Ghru Spear",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical",
+            "Poison"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "saint-bident",
+        "name": "Saint Bident",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "arstors-spear",
+        "name": "Arstor's Spear",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical",
+            "Poison"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "four-pronged-plow",
+        "name": "Four-Pronged Plow",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "dragonslayer-spear",
+        "name": "Dragonslayer Spear",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "dragonslayer-swordspear",
+        "name": "Dragonslayer Swordspear",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "drang-twinspears",
+        "name": "Drang Twinspears",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "tailbone-spear",
+        "name": "Tailbone Spear",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "gargoyle-flame-spear",
+        "name": "Gargoyle Flame Spear",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "golden-ritual-spear",
+        "name": "Golden Ritual Spear",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "yorshkas-spear",
+        "name": "Yorshka's Spear",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "soldering-iron",
+        "name": "Soldering Iron",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "follower-javelin",
+        "name": "Follower Javelin",
+        "weaponClass": "Spear",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "Ashes of Ariandel"
+    },
+    {
+        "id": "ringed-knight-spear",
+        "name": "Ringed Knight Spear",
+        "weaponClass": "Pike",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "pike",
+        "name": "Pike",
+        "weaponClass": "Pike",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "lothric-knight-long-spear",
+        "name": "Lothric Knight Long Spear",
+        "weaponClass": "Pike",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "greatlance",
+        "name": "Greatlance",
+        "weaponClass": "Pike",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "lothric-war-banner",
+        "name": "Lothric War Banner",
+        "weaponClass": "Pike",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "halberd",
+        "name": "Halberd",
+        "weaponClass": "Halberd",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "lucerne",
+        "name": "Lucerne",
+        "weaponClass": "Halberd",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "winged-knight-halberd",
+        "name": "Winged Knight Halberd",
+        "weaponClass": "Halberd",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "red-hilted-halberd",
+        "name": "Red Hilted Halberd",
+        "weaponClass": "Halberd",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "glaive",
+        "name": "Glaive",
+        "weaponClass": "Halberd",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "black-knight-glaive",
+        "name": "Black Knight Glaive",
+        "weaponClass": "Halberd",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "crescent-axe",
+        "name": "Crescent Axe",
+        "weaponClass": "Halberd",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "gundyrs-halberd",
+        "name": "Gundyr's Halberd",
+        "weaponClass": "Halberd",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "immolation-tinder",
+        "name": "Immolation Tinder",
+        "weaponClass": "Halberd",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "great-scythe",
+        "name": "Great Scythe",
+        "weaponClass": "Reaper",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "pontiff-knight-great-scythe",
+        "name": "Pontiff Knight Great Scythe",
+        "weaponClass": "Reaper",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "great-corvian-scythe",
+        "name": "Great Corvian Scythe",
+        "weaponClass": "Reaper",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "crucifix-of-the-mad-king",
+        "name": "Crucifix of the Mad King",
+        "weaponClass": "Reaper",
+        "damageTypes": [
+            "Physical",
+            "Dark"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "friedes-great-scythe",
+        "name": "Friede's Great Scythe",
+        "weaponClass": "Reaper",
+        "damageTypes": [
+            "Physical",
+            "Dark"
+        ],
+        "isDLC": true,
+        "dlcName": "Ashes of Ariandel"
+    },
+    {
+        "id": "whip",
+        "name": "Whip",
+        "weaponClass": "Whip",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "notched-whip",
+        "name": "Notched Whip",
+        "weaponClass": "Whip",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "spotted-whip",
+        "name": "Spotted Whip",
+        "weaponClass": "Whip",
+        "damageTypes": [
+            "Physical",
+            "Poison"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "witchs-locks",
+        "name": "Witch's Locks",
+        "weaponClass": "Whip",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "rose-of-ariandel",
+        "name": "Rose of Ariandel",
+        "weaponClass": "Whip",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": true,
+        "dlcName": "Ashes of Ariandel"
+    },
+    {
+        "id": "short-bow",
+        "name": "Short Bow",
+        "weaponClass": "Bow",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "longbow",
+        "name": "Longbow",
+        "weaponClass": "Bow",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "composite-bow",
+        "name": "Composite Bow",
+        "weaponClass": "Bow",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "black-bow-of-pharis",
+        "name": "Black Bow of Pharis",
+        "weaponClass": "Bow",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "dragonrider-bow",
+        "name": "Dragonrider Bow",
+        "weaponClass": "Bow",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "darkmoon-longbow",
+        "name": "Darkmoon Longbow",
+        "weaponClass": "Bow",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "white-birch-bow",
+        "name": "White Birch Bow",
+        "weaponClass": "Bow",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "dragonslayer-greatbow",
+        "name": "Dragonslayer Greatbow",
+        "weaponClass": "Greatbow",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "onislayer-greatbow",
+        "name": "Onislayer Greatbow",
+        "weaponClass": "Greatbow",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "millwood-greatbow",
+        "name": "Millwood Greatbow",
+        "weaponClass": "Greatbow",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "Ashes of Ariandel"
+    },
+    {
+        "id": "light-crossbow",
+        "name": "Light Crossbow",
+        "weaponClass": "Crossbow",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "heavy-crossbow",
+        "name": "Heavy Crossbow",
+        "weaponClass": "Crossbow",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "avelyn",
+        "name": "Avelyn",
+        "weaponClass": "Crossbow",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "arbalest",
+        "name": "Arbalest",
+        "weaponClass": "Crossbow",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "sniper-crossbow",
+        "name": "Sniper Crossbow",
+        "weaponClass": "Crossbow",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "knights-crossbow",
+        "name": "Knight's Crossbow",
+        "weaponClass": "Crossbow",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "repeating-crossbow",
+        "name": "Repeating Crossbow",
+        "weaponClass": "Crossbow",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "sorcerers-staff",
+        "name": "Sorcerer's Staff",
+        "weaponClass": "Sorcery Staff",
+        "damageTypes": [
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "witchtree-branch",
+        "name": "Witchtree Branch",
+        "weaponClass": "Sorcery Staff",
+        "damageTypes": [
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "heretics-staff",
+        "name": "Heretic's Staff",
+        "weaponClass": "Sorcery Staff",
+        "damageTypes": [
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "court-sorcerers-staff",
+        "name": "Court Sorcerer's Staff",
+        "weaponClass": "Sorcery Staff",
+        "damageTypes": [
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "sages-crystal-staff",
+        "name": "Sage's Crystal Staff",
+        "weaponClass": "Sorcery Staff",
+        "damageTypes": [
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "izalith-staff",
+        "name": "Izalith Staff",
+        "weaponClass": "Sorcery Staff",
+        "damageTypes": [
+            "Dark",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "archdeacons-great-staff",
+        "name": "Archdeacon's Great Staff",
+        "weaponClass": "Sorcery Staff",
+        "damageTypes": [
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "man-grubs-staff",
+        "name": "Man-grub's Staff",
+        "weaponClass": "Sorcery Staff",
+        "damageTypes": [
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "mendicants-staff",
+        "name": "Mendicant's Staff",
+        "weaponClass": "Sorcery Staff",
+        "damageTypes": [
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "storytellers-staff",
+        "name": "Storyteller's Staff",
+        "weaponClass": "Sorcery Staff",
+        "damageTypes": [
+            "Magic",
+            "Poison"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "murky-longstaff",
+        "name": "Murky Longstaff",
+        "weaponClass": "Sorcery Staff",
+        "damageTypes": [
+            "Dark",
+            "Magic"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "preachers-right-arm",
+        "name": "Preacher's Right Arm",
+        "weaponClass": "Sorcery Staff",
+        "damageTypes": [
+            "Dark",
+            "Magic"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "pyromancy-flame",
+        "name": "Pyromancy Flame",
+        "weaponClass": "Pyromancy Flame",
+        "damageTypes": [
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "dark-pyromancy-flame",
+        "name": "Dark Pyromancy Flame",
+        "weaponClass": "Pyromancy Flame",
+        "damageTypes": [
+            "Fire",
+            "Dark"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "talisman",
+        "name": "Talisman",
+        "weaponClass": "Talisman",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "canvas-talisman",
+        "name": "Canvas Talisman",
+        "weaponClass": "Talisman",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "sunlight-talisman",
+        "name": "Sunlight Talisman",
+        "weaponClass": "Talisman",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "saints-talisman",
+        "name": "Saint's Talisman",
+        "weaponClass": "Talisman",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "sunless-talisman",
+        "name": "Sunless Talisman",
+        "weaponClass": "Talisman",
+        "damageTypes": [
+            "Physical",
+            "Dark"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "yorshkas-chime",
+        "name": "Yorshka's Chime",
+        "weaponClass": "Sacred Chime",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "white-hair-talisman",
+        "name": "White Hair Talisman",
+        "weaponClass": "Talisman",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "clerics-sacred-chime",
+        "name": "Cleric's Sacred Chime",
+        "weaponClass": "Sacred Chime",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "priests-chime",
+        "name": "Priest's Chime",
+        "weaponClass": "Sacred Chime",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "caithas-chime",
+        "name": "Caitha's Chime",
+        "weaponClass": "Sacred Chime",
+        "damageTypes": [
+            "Physical",
+            "Dark"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "crystal-chime",
+        "name": "Crystal Chime",
+        "weaponClass": "Sacred Chime",
+        "damageTypes": [
+            "Physical",
+            "Magic",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "sacred-chime-of-filianore",
+        "name": "Sacred Chime of Filianore",
+        "weaponClass": "Sacred Chime",
+        "damageTypes": [
+            "Physical",
+            "Lightning",
+            "Dark"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "torch",
+        "name": "Torch",
+        "weaponClass": "Torch",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "follower-torch",
+        "name": "Follower Torch",
+        "weaponClass": "Torch",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": true,
+        "dlcName": "Ashes of Ariandel"
+    },
+    {
+        "id": "buckler",
+        "name": "Buckler",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "small-leather-shield",
+        "name": "Small Leather Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "target-shield",
+        "name": "Target Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "leather-shield",
+        "name": "Leather Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "iron-round-shield",
+        "name": "Iron Round Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "caduceus-round-shield",
+        "name": "Caduceus Round Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "crimson-parma",
+        "name": "Crimson Parma",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "red-and-white-round-shield",
+        "name": "Red and White Round Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "hawkwoods-shield",
+        "name": "Hawkwood's Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "eastern-iron-shield",
+        "name": "Eastern Iron Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "elkhorn-round-shield",
+        "name": "Elkhorn Round Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "ghru-rotshield",
+        "name": "Ghru Rotshield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical",
+            "Poison"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "golden-falcon-shield",
+        "name": "Golden Falcon Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "warriors-round-shield",
+        "name": "Warrior's Round Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "plank-shield",
+        "name": "Plank Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "sacred-bloom-shield",
+        "name": "Sacred Bloom Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "llewellyn-shield",
+        "name": "Llewellyn Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "dragonhead-shield",
+        "name": "Dragonhead Shield",
+        "weaponClass": "Small Shield",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "kite-shield",
+        "name": "Kite Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "knight-shield",
+        "name": "Knight Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "large-leather-shield",
+        "name": "Large Leather Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "round-shield",
+        "name": "Round Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "lothric-knight-shield",
+        "name": "Lothric Knight Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "blue-wooden-shield",
+        "name": "Blue Wooden Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "pontiff-knight-shield",
+        "name": "Pontiff Knight Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "wooden-shield",
+        "name": "Wooden Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "sunlight-shield",
+        "name": "Sunlight Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "black-knight-shield",
+        "name": "Black Knight Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "spider-shield",
+        "name": "Spider Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical",
+            "Poison"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "spiked-shield",
+        "name": "Spiked Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "crystal-shield",
+        "name": "Crystal Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "carthus-shield",
+        "name": "Carthus Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "wargod-wooden-shield",
+        "name": "Wargod Wooden Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "silver-eagle-kite-shield",
+        "name": "Silver Eagle Kite Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "porcine-shield",
+        "name": "Porcine Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "crest-shield",
+        "name": "Crest Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "dragon-crest-shield",
+        "name": "Dragon Crest Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "grass-crest-shield",
+        "name": "Grass Crest Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "east-west-shield",
+        "name": "East-West Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "pierce-shield",
+        "name": "Pierce Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "sunset-shield",
+        "name": "Sunset Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "loch-shield",
+        "name": "Loch Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical",
+            "Magic"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "follower-shield",
+        "name": "Follower Shield",
+        "weaponClass": "Shield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "Ashes of Ariandel"
+    },
+    {
+        "id": "dragonhead-greatshield",
+        "name": "Dragonhead Greatshield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    },
+    {
+        "id": "cathedral-knight-greatshield",
+        "name": "Cathedral Knight Greatshield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "lothric-knight-greatshield",
+        "name": "Lothric Knight Greatshield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "wolf-knights-greatshield",
+        "name": "Wolf Knight's Greatshield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "black-iron-greatshield",
+        "name": "Black Iron Greatshield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "yhorms-greatshield",
+        "name": "Yhorm's Greatshield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical",
+            "Fire"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "havels-greatshield",
+        "name": "Havel's Greatshield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "greatshield-of-glory",
+        "name": "Greatshield of Glory",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "moaning-shield",
+        "name": "Moaning Shield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical",
+            "Dark"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "stone-greatshield",
+        "name": "Stone Greatshield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "twin-dragon-greatshield",
+        "name": "Twin Dragon Greatshield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "curse-ward-greatshield",
+        "name": "Curse Ward Greatshield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "ancient-dragon-greatshield",
+        "name": "Ancient Dragon Greatshield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "dragonslayer-greatshield",
+        "name": "Dragonslayer Greatshield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical",
+            "Lightning"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "bonewheel-shield",
+        "name": "Bonewheel Shield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": false,
+        "dlcName": null
+    },
+    {
+        "id": "giant-door-shield",
+        "name": "Giant Door Shield",
+        "weaponClass": "Greatshield",
+        "damageTypes": [
+            "Physical"
+        ],
+        "isDLC": true,
+        "dlcName": "The Ringed City"
+    }
+]

@@ -1,0 +1,254 @@
+=== HELMS ===
+Standard Helm
+Helm of Favor
+Helm of Thorns
+Alva Helm
+Brigand Hood
+Lucatiel's Mask
+Mirrah Chain Helm
+Northern Helm
+Creighton's Steel Mask
+Sellsword Helm
+Undead Legion Helm
+Faraam Helm
+Herald Helm
+Knight Helm
+Elite Knight Helm
+Drakeblood Helm
+Fire Witch Helm
+Lothric Knight Helm
+Lorian's Helm
+Black Knight Helm
+Silver Knight Helm
+Dragonslayer Helm
+Wolf Knight Helm
+Smough's Helm
+Sunset Helm
+Sunless Veil
+Brass Helm
+Eastern Helm
+Executioner Helm
+Exile Mask
+Gundyr's Helm
+Havel's Helm
+Iron Dragonslayer Helm
+Nameless King Crown
+Dancer's Crown
+Dark Mask
+Black Iron Helm
+Firelink Helm
+Golden Crown
+Outrider Knight Helm
+Pontiff Knight Crown
+Winged Knight Helm
+Cathedral Knight Helm
+Jailer Hood
+Karla's Pointed Hat
+Court Sorcerer Hood
+Old Sorcerer Hat
+Sorcerer Hood
+Cleric Hat
+Maiden Hood
+Fire Keeper Hood
+Pyromancer Crown
+Cornyx's Mask
+White Preacher Head
+Black Witch Hat
+Black Witch Veil
+Desert Pyromancer Hood
+Ordained Hood
+Painting Guardian Hood
+Grave Warden Hood
+Worker Hat
+Thrall Hood
+Slave Knight Hood
+Vilhelm's Helm
+Millwood Knight Helm
+Follower Helm
+Lapp's Helm
+Ruin Helm
+Ringed Knight Hood
+Shira's Crown
+
+=== CHEST ARMOR ===
+Alva Armor
+Armor of Favor
+Armor of the Sun
+Armor of Thorns
+Antiquated Plain Garb
+Antiquated Dress
+Archdeacon Holy Garb
+Assassin Armor
+Black Hand Armor
+Black Iron Armor
+Black Knight Armor
+Black Leather Armor
+Black Witch Garb
+Brigand Armor
+Catarina Armor
+Cathedral Knight Armor
+Cleric Blue Robe
+Cleric Robe
+Cornyx's Garb
+Court Sorcerer Robe
+Dark Armor
+Deserter Armor
+Dragonscale Armor
+Drakeblood Armor
+Eastern Armor
+Executioner Armor
+Exile Armor
+Fallen Knight Armor
+Fire Keeper Robe
+Fire Witch Armor
+Firelink Armor
+Follower Armor
+Faraam Armor
+Grave Warden Robe
+Herald Armor
+Jailer Robe
+Karla's Coat
+Knight Armor
+Lapp's Armor
+Leonhard's Garb
+Lorian's Armor
+Lothric Knight Armor
+Maiden Robe
+Millwood Knight Armor
+Mirrah Vest
+Morne's Armor
+Nameless Knight Armor
+Old Sorcerer Coat
+Outrider Knight Armor
+Painting Guardian Gown
+Pontiff Knight Armor
+Pyromancer Garb
+Ragged Robe
+Ringed Knight Armor
+Robe of Prayer
+Sellsword Armor
+Shadow Garb
+Silver Knight Armor
+Slave Knight Armor
+Smough's Armor
+Sunless Armor
+Sunset Armor
+Vilhelm's Armor
+Worker Garb
+Ordained Dress
+Desert Pyromancer Garb
+
+=== GAUNTLETS ===
+Hard Leather Gauntlets
+Gauntlets of Favor
+Gauntlets of Thorns
+Alva Gauntlets
+Brigand Gauntlets
+Mirrah Gloves
+Drakeblood Gauntlets
+Faraam Gauntlets
+Sunset Gauntlets
+Sunless Gauntlets
+Brass Gauntlets
+Eastern Gauntlets
+Fire Witch Gauntlets
+Dancer's Gauntlets
+Dark Gauntlets
+Black Knight Gauntlets
+Silver Knight Gauntlets
+Dragonslayer Gauntlets
+Wolf Knight Gauntlets
+Smough's Gauntlets
+Lorian's Gauntlets
+Golden Bracelets
+Firelink Gauntlets
+Black Iron Gauntlets
+Executioner Gauntlets
+Exile Gauntlets
+Gundyr's Gauntlets
+Havel's Gauntlets
+Outrider Knight Gauntlets
+Pontiff Knight Gauntlets
+Winged Knight Gauntlets
+Cathedral Knight Gauntlets
+Jailer Gloves
+Karla's Gloves
+Court Sorcerer Gloves
+Old Sorcerer Gloves
+Sorcerer Gloves
+Cleric Gloves
+Maiden Gloves
+Fire Keeper Gloves
+Pyromancer Gloves
+Cornyx's Wrap
+Black Witch Wrappings
+Desert Pyromancer Gloves
+Ordained Gloves
+Painting Guardian Gloves
+Grave Warden Wrap
+Worker Gloves
+Thrall Hood Wrap (Hands)
+Slave Knight Gauntlets
+Vilhelm's Gauntlets
+Millwood Knight Gauntlets
+Follower Gloves
+Lapp's Gauntlets
+Ruin Gauntlets
+Ringed Knight Gauntlets
+Shira's Gloves
+
+=== LEGGINGS ===
+Leggings of Favor
+Leggings of the Sun
+Leggings of Thorns
+Alva Leggings
+Brigand Trousers
+Mirrah Trousers
+Drakeblood Leggings
+Faraam Boots
+Sunset Leggings
+Sunless Leggings
+Brass Leggings
+Eastern Leggings
+Fire Witch Leggings
+Dancer's Leggings
+Dark Leggings
+Black Knight Leggings
+Silver Knight Leggings
+Dragonslayer Leggings
+Wolf Knight Leggings
+Smough's Leggings
+Lorian's Leggings
+Black Iron Leggings
+Executioner Leggings
+Exile Leggings
+Gundyr's Leggings
+Havel's Leggings
+Outrider Knight Leggings
+Pontiff Knight Leggings
+Winged Knight Leggings
+Cathedral Knight Leggings
+Jailer Trousers
+Karla's Trousers
+Court Sorcerer Trousers
+Old Sorcerer Boots
+Sorcerer Trousers
+Cleric Trousers
+Maiden Skirt
+Fire Keeper Skirt
+Pyromancer Trousers
+Black Witch Trousers
+Desert Pyromancer Skirt
+Ordained Trousers
+Painting Guardian Waistcloth
+Grave Warden Skirt
+Worker Trousers
+Thrall Hood Trousers (Alt)
+Slave Knight Leggings
+Vilhelm's Leggings
+Millwood Knight Leggings
+Follower Boots
+Lapp's Leggings
+Ruin Leggings
+Ringed Knight Leggings
+Shira's Trousers
