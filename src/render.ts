@@ -146,6 +146,18 @@ export function renderCards(): void {
     });
   });
 
+  container.querySelectorAll<HTMLElement>(".card-header").forEach((header) => {
+    header.addEventListener("click", (e) => {
+      const t = e.target as Element;
+      if (t.closest(".note-toggle")) return;
+      if (t.closest(".checkbox-wrap")) return;
+      const cb = header.querySelector<HTMLInputElement>(".weapon-checkbox");
+      if (!cb) return;
+      cb.checked = !cb.checked;
+      cb.dispatchEvent(new Event("change", { bubbles: true }));
+    });
+  });
+
   container.querySelectorAll<HTMLButtonElement>(".note-toggle").forEach((btn) => {
     btn.addEventListener("click", () => {
       const id = btn.dataset["id"] ?? "";

@@ -30,6 +30,8 @@ export interface SimpleItem {
   name: string;
   category: string;
   order: number;
+  isDLC?: boolean;
+  dlcName?: string;
 }
 
 export type SpellItem = SimpleItem;
@@ -43,4 +45,5 @@ export interface SimpleFilterState {
   category: string;
   unobtainedOnly: boolean;
   sortBy: SimpleSortOption;
+  dlcOnly: boolean;
 }

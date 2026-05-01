@@ -1,100 +1,652 @@
 [
-  { "id": "heal-aid", "name": "Heal Aid", "category": "Miracle", "order": 1 },
-  { "id": "heal", "name": "Heal", "category": "Miracle", "order": 2 },
-  { "id": "med-heal", "name": "Med Heal", "category": "Miracle", "order": 3 },
-  { "id": "great-heal", "name": "Great Heal", "category": "Miracle", "order": 4 },
-  { "id": "soothing-sunlight", "name": "Soothing Sunlight", "category": "Miracle", "order": 5 },
-  { "id": "replenishment", "name": "Replenishment", "category": "Miracle", "order": 6 },
-  { "id": "bountiful-light", "name": "Bountiful Light", "category": "Miracle", "order": 7 },
-  { "id": "bountiful-sunlight", "name": "Bountiful Sunlight", "category": "Miracle", "order": 8 },
-  { "id": "caressing-tears", "name": "Caressing Tears", "category": "Miracle", "order": 9 },
-  { "id": "tears-of-denial", "name": "Tears of Denial", "category": "Miracle", "order": 10 },
-  { "id": "homeward", "name": "Homeward", "category": "Miracle", "order": 11 },
-  { "id": "seek-guidance", "name": "Seek Guidance", "category": "Miracle", "order": 12 },
-  { "id": "sacred-oath", "name": "Sacred Oath", "category": "Miracle", "order": 13 },
-  { "id": "force", "name": "Force", "category": "Miracle", "order": 14 },
-  { "id": "emit-force", "name": "Emit Force", "category": "Miracle", "order": 15 },
-  { "id": "wrath-of-the-gods", "name": "Wrath of the Gods", "category": "Miracle", "order": 16 },
-  { "id": "lightning-spear", "name": "Lightning Spear", "category": "Miracle", "order": 17 },
-  { "id": "great-lightning-spear", "name": "Great Lightning Spear", "category": "Miracle", "order": 18 },
-  { "id": "sunlight-spear", "name": "Sunlight Spear", "category": "Miracle", "order": 19 },
-  { "id": "lightning-stake", "name": "Lightning Stake", "category": "Miracle", "order": 20 },
-  { "id": "lightning-storm", "name": "Lightning Storm", "category": "Miracle", "order": 21 },
-  { "id": "divine-pillars-of-light", "name": "Divine Pillars of Light", "category": "Miracle", "order": 22 },
-  { "id": "blessed-weapon", "name": "Blessed Weapon", "category": "Miracle", "order": 23 },
-  { "id": "lightning-blade", "name": "Lightning Blade", "category": "Miracle", "order": 24 },
-  { "id": "darkmoon-blade", "name": "Darkmoon Blade", "category": "Miracle", "order": 25 },
-  { "id": "magic-barrier", "name": "Magic Barrier", "category": "Miracle", "order": 26 },
-  { "id": "great-magic-barrier", "name": "Great Magic Barrier", "category": "Miracle", "order": 27 },
-  { "id": "dark-blade", "name": "Dark Blade", "category": "Miracle", "order": 28 },
-  { "id": "vow-of-silence", "name": "Vow of Silence", "category": "Miracle", "order": 29 },
-  { "id": "dead-again", "name": "Dead Again", "category": "Miracle", "order": 30 },
-  { "id": "atonement", "name": "Atonement", "category": "Miracle", "order": 31 },
-  { "id": "deep-protection", "name": "Deep Protection", "category": "Miracle", "order": 32 },
-  { "id": "gnaw", "name": "Gnaw", "category": "Miracle", "order": 33 },
-  { "id": "dorhys-gnawing", "name": "Dorhys' Gnawing", "category": "Miracle", "order": 34 },
-  { "id": "lifehunt-scythe", "name": "Lifehunt Scythe", "category": "Miracle", "order": 35 },
-  { "id": "way-of-white-corona", "name": "Way of White Corona", "category": "Miracle", "order": 36 },
-  { "id": "projected-heal", "name": "Projected Heal", "category": "Miracle", "order": 37 },
-  { "id": "lightning-arrow", "name": "Lightning Arrow", "category": "Miracle", "order": 38 },
-  { "id": "fireball", "name": "Fireball", "category": "Pyromancy", "order": 1 },
-  { "id": "fire-orb", "name": "Fire Orb", "category": "Pyromancy", "order": 2 },
-  { "id": "bursting-fireball", "name": "Bursting Fireball", "category": "Pyromancy", "order": 3 },
-  { "id": "great-chaos-fire-orb", "name": "Great Chaos Fire Orb", "category": "Pyromancy", "order": 4 },
-  { "id": "chaos-bed-vestiges", "name": "Chaos Bed Vestiges", "category": "Pyromancy", "order": 5 },
-  { "id": "fire-surge", "name": "Fire Surge", "category": "Pyromancy", "order": 6 },
-  { "id": "fire-whip", "name": "Fire Whip", "category": "Pyromancy", "order": 7 },
-  { "id": "firestorm", "name": "Firestorm", "category": "Pyromancy", "order": 8 },
-  { "id": "chaos-storm", "name": "Chaos Storm", "category": "Pyromancy", "order": 9 },
-  { "id": "great-combustion", "name": "Great Combustion", "category": "Pyromancy", "order": 10 },
-  { "id": "sacred-flame", "name": "Sacred Flame", "category": "Pyromancy", "order": 11 },
-  { "id": "profaned-flame", "name": "Profaned Flame", "category": "Pyromancy", "order": 12 },
-  { "id": "poison-mist", "name": "Poison Mist", "category": "Pyromancy", "order": 13 },
-  { "id": "toxic-mist", "name": "Toxic Mist", "category": "Pyromancy", "order": 14 },
-  { "id": "acid-surge", "name": "Acid Surge", "category": "Pyromancy", "order": 15 },
-  { "id": "flash-sweat", "name": "Flash Sweat", "category": "Pyromancy", "order": 16 },
-  { "id": "profuse-sweat", "name": "Profuse Sweat", "category": "Pyromancy", "order": 17 },
-  { "id": "iron-flesh", "name": "Iron Flesh", "category": "Pyromancy", "order": 18 },
-  { "id": "power-within", "name": "Power Within", "category": "Pyromancy", "order": 19 },
-  { "id": "carthus-flame-arc", "name": "Carthus Flame Arc", "category": "Pyromancy", "order": 20 },
-  { "id": "warmth", "name": "Warmth", "category": "Pyromancy", "order": 21 },
-  { "id": "rapport", "name": "Rapport", "category": "Pyromancy", "order": 22 },
-  { "id": "boulder-heave", "name": "Boulder Heave", "category": "Pyromancy", "order": 23 },
-  { "id": "black-flame", "name": "Black Flame", "category": "Pyromancy", "order": 24 },
-  { "id": "black-fire-orb", "name": "Black Fire Orb", "category": "Pyromancy", "order": 25 },
-  { "id": "black-serpent", "name": "Black Serpent", "category": "Pyromancy", "order": 26 },
-  { "id": "soul-arrow", "name": "Soul Arrow", "category": "Sorcery", "order": 1 },
-  { "id": "great-soul-arrow", "name": "Great Soul Arrow", "category": "Sorcery", "order": 2 },
-  { "id": "heavy-soul-arrow", "name": "Heavy Soul Arrow", "category": "Sorcery", "order": 3 },
-  { "id": "great-heavy-soul-arrow", "name": "Great Heavy Soul Arrow", "category": "Sorcery", "order": 4 },
-  { "id": "farron-dart", "name": "Farron Dart", "category": "Sorcery", "order": 5 },
-  { "id": "great-farron-dart", "name": "Great Farron Dart", "category": "Sorcery", "order": 6 },
-  { "id": "farron-hail", "name": "Farron Hail", "category": "Sorcery", "order": 7 },
-  { "id": "homing-soulmass", "name": "Homing Soulmass", "category": "Sorcery", "order": 8 },
-  { "id": "homing-crystal-soulmass", "name": "Homing Crystal Soulmass", "category": "Sorcery", "order": 9 },
-  { "id": "crystal-hail", "name": "Crystal Hail", "category": "Sorcery", "order": 10 },
-  { "id": "soul-spear", "name": "Soul Spear", "category": "Sorcery", "order": 11 },
-  { "id": "crystal-soul-spear", "name": "Crystal Soul Spear", "category": "Sorcery", "order": 12 },
-  { "id": "white-dragon-breath", "name": "White Dragon Breath", "category": "Sorcery", "order": 13 },
-  { "id": "soul-stream", "name": "Soul Stream", "category": "Sorcery", "order": 14 },
-  { "id": "soul-greatsword", "name": "Soul Greatsword", "category": "Sorcery", "order": 15 },
-  { "id": "farron-flashsword", "name": "Farron Flashsword", "category": "Sorcery", "order": 16 },
-  { "id": "magic-weapon", "name": "Magic Weapon", "category": "Sorcery", "order": 17 },
-  { "id": "great-magic-weapon", "name": "Great Magic Weapon", "category": "Sorcery", "order": 18 },
-  { "id": "crystal-magic-weapon", "name": "Crystal Magic Weapon", "category": "Sorcery", "order": 19 },
-  { "id": "magic-shield", "name": "Magic Shield", "category": "Sorcery", "order": 20 },
-  { "id": "great-magic-shield", "name": "Great Magic Shield", "category": "Sorcery", "order": 21 },
-  { "id": "spook", "name": "Spook", "category": "Sorcery", "order": 22 },
-  { "id": "aural-decoy", "name": "Aural Decoy", "category": "Sorcery", "order": 23 },
-  { "id": "pestilent-mercury", "name": "Pestilent Mercury", "category": "Sorcery", "order": 24 },
-  { "id": "cast-light", "name": "Cast Light", "category": "Sorcery", "order": 25 },
-  { "id": "repair", "name": "Repair", "category": "Sorcery", "order": 26 },
-  { "id": "hidden-weapon", "name": "Hidden Weapon", "category": "Sorcery", "order": 27 },
-  { "id": "hidden-body", "name": "Hidden Body", "category": "Sorcery", "order": 28 },
-  { "id": "chameleon", "name": "Chameleon", "category": "Sorcery", "order": 29 },
-  { "id": "twisted-wall-of-light", "name": "Twisted Wall of Light", "category": "Sorcery", "order": 30 },
-  { "id": "deep-soul", "name": "Deep Soul", "category": "Sorcery", "order": 31 },
-  { "id": "great-deep-soul", "name": "Great Deep Soul", "category": "Sorcery", "order": 32 },
-  { "id": "affinity", "name": "Affinity", "category": "Sorcery", "order": 33 },
-  { "id": "dark-edge", "name": "Dark Edge", "category": "Sorcery", "order": 34 }
+  {
+    "id": "fireball",
+    "name": "Fireball",
+    "category": "Pyromancy",
+    "order": 1
+  },
+  {
+    "id": "fire-orb",
+    "name": "Fire Orb",
+    "category": "Pyromancy",
+    "order": 2
+  },
+  {
+    "id": "bursting-fireball",
+    "name": "Bursting Fireball",
+    "category": "Pyromancy",
+    "order": 3
+  },
+  {
+    "id": "great-chaos-fire-orb",
+    "name": "Great Chaos Fire Orb",
+    "category": "Pyromancy",
+    "order": 4
+  },
+  {
+    "id": "chaos-bed-vestiges",
+    "name": "Chaos Bed Vestiges",
+    "category": "Pyromancy",
+    "order": 5
+  },
+  {
+    "id": "fire-surge",
+    "name": "Fire Surge",
+    "category": "Pyromancy",
+    "order": 6
+  },
+  {
+    "id": "fire-whip",
+    "name": "Fire Whip",
+    "category": "Pyromancy",
+    "order": 7
+  },
+  {
+    "id": "firestorm",
+    "name": "Firestorm",
+    "category": "Pyromancy",
+    "order": 8
+  },
+  {
+    "id": "chaos-storm",
+    "name": "Chaos Storm",
+    "category": "Pyromancy",
+    "order": 9
+  },
+  {
+    "id": "great-combustion",
+    "name": "Great Combustion",
+    "category": "Pyromancy",
+    "order": 10
+  },
+  {
+    "id": "sacred-flame",
+    "name": "Sacred Flame",
+    "category": "Pyromancy",
+    "order": 11
+  },
+  {
+    "id": "profaned-flame",
+    "name": "Profaned Flame",
+    "category": "Pyromancy",
+    "order": 12
+  },
+  {
+    "id": "poison-mist",
+    "name": "Poison Mist",
+    "category": "Pyromancy",
+    "order": 13
+  },
+  {
+    "id": "toxic-mist",
+    "name": "Toxic Mist",
+    "category": "Pyromancy",
+    "order": 14
+  },
+  {
+    "id": "acid-surge",
+    "name": "Acid Surge",
+    "category": "Pyromancy",
+    "order": 15
+  },
+  {
+    "id": "flash-sweat",
+    "name": "Flash Sweat",
+    "category": "Pyromancy",
+    "order": 16
+  },
+  {
+    "id": "profuse-sweat",
+    "name": "Profuse Sweat",
+    "category": "Pyromancy",
+    "order": 17
+  },
+  {
+    "id": "iron-flesh",
+    "name": "Iron Flesh",
+    "category": "Pyromancy",
+    "order": 18
+  },
+  {
+    "id": "power-within",
+    "name": "Power Within",
+    "category": "Pyromancy",
+    "order": 19
+  },
+  {
+    "id": "carthus-beacon",
+    "name": "Carthus Beacon",
+    "category": "Pyromancy",
+    "order": 20
+  },
+  {
+    "id": "carthus-flame-arc",
+    "name": "Carthus Flame Arc",
+    "category": "Pyromancy",
+    "order": 21
+  },
+  {
+    "id": "warmth",
+    "name": "Warmth",
+    "category": "Pyromancy",
+    "order": 22
+  },
+  {
+    "id": "rapport",
+    "name": "Rapport",
+    "category": "Pyromancy",
+    "order": 23
+  },
+  {
+    "id": "boulder-heave",
+    "name": "Boulder Heave",
+    "category": "Pyromancy",
+    "order": 24
+  },
+  {
+    "id": "black-flame",
+    "name": "Black Flame",
+    "category": "Pyromancy",
+    "order": 25
+  },
+  {
+    "id": "black-fire-orb",
+    "name": "Black Fire Orb",
+    "category": "Pyromancy",
+    "order": 26
+  },
+  {
+    "id": "black-serpent",
+    "name": "Black Serpent",
+    "category": "Pyromancy",
+    "order": 27
+  },
+  {
+    "id": "floating-chaos",
+    "name": "Floating Chaos",
+    "category": "Pyromancy",
+    "order": 28,
+    "isDLC": true,
+    "dlcName": "Ashes of Ariandel"
+  },
+  {
+    "id": "seething-chaos",
+    "name": "Seething Chaos",
+    "category": "Pyromancy",
+    "order": 29,
+    "isDLC": true,
+    "dlcName": "Ashes of Ariandel"
+  },
+  {
+    "id": "flame-fan",
+    "name": "Flame Fan",
+    "category": "Pyromancy",
+    "order": 30,
+    "isDLC": true,
+    "dlcName": "Ashes of Ariandel"
+  },
+  {
+    "id": "heal-aid",
+    "name": "Heal Aid",
+    "category": "Miracle",
+    "order": 1
+  },
+  {
+    "id": "heal",
+    "name": "Heal",
+    "category": "Miracle",
+    "order": 2
+  },
+  {
+    "id": "med-heal",
+    "name": "Med Heal",
+    "category": "Miracle",
+    "order": 3
+  },
+  {
+    "id": "great-heal",
+    "name": "Great Heal",
+    "category": "Miracle",
+    "order": 4
+  },
+  {
+    "id": "soothing-sunlight",
+    "name": "Soothing Sunlight",
+    "category": "Miracle",
+    "order": 5
+  },
+  {
+    "id": "replenishment",
+    "name": "Replenishment",
+    "category": "Miracle",
+    "order": 6
+  },
+  {
+    "id": "bountiful-light",
+    "name": "Bountiful Light",
+    "category": "Miracle",
+    "order": 7
+  },
+  {
+    "id": "bountiful-sunlight",
+    "name": "Bountiful Sunlight",
+    "category": "Miracle",
+    "order": 8
+  },
+  {
+    "id": "caressing-tears",
+    "name": "Caressing Tears",
+    "category": "Miracle",
+    "order": 9
+  },
+  {
+    "id": "tears-of-denial",
+    "name": "Tears of Denial",
+    "category": "Miracle",
+    "order": 10
+  },
+  {
+    "id": "homeward",
+    "name": "Homeward",
+    "category": "Miracle",
+    "order": 11
+  },
+  {
+    "id": "seek-guidance",
+    "name": "Seek Guidance",
+    "category": "Miracle",
+    "order": 12
+  },
+  {
+    "id": "sacred-oath",
+    "name": "Sacred Oath",
+    "category": "Miracle",
+    "order": 13
+  },
+  {
+    "id": "force",
+    "name": "Force",
+    "category": "Miracle",
+    "order": 14
+  },
+  {
+    "id": "emit-force",
+    "name": "Emit Force",
+    "category": "Miracle",
+    "order": 15
+  },
+  {
+    "id": "wrath-of-the-gods",
+    "name": "Wrath of the Gods",
+    "category": "Miracle",
+    "order": 16
+  },
+  {
+    "id": "lightning-spear",
+    "name": "Lightning Spear",
+    "category": "Miracle",
+    "order": 17
+  },
+  {
+    "id": "great-lightning-spear",
+    "name": "Great Lightning Spear",
+    "category": "Miracle",
+    "order": 18
+  },
+  {
+    "id": "sunlight-spear",
+    "name": "Sunlight Spear",
+    "category": "Miracle",
+    "order": 19
+  },
+  {
+    "id": "lightning-stake",
+    "name": "Lightning Stake",
+    "category": "Miracle",
+    "order": 20
+  },
+  {
+    "id": "lightning-storm",
+    "name": "Lightning Storm",
+    "category": "Miracle",
+    "order": 21
+  },
+  {
+    "id": "divine-pillars-of-light",
+    "name": "Divine Pillars of Light",
+    "category": "Miracle",
+    "order": 22
+  },
+  {
+    "id": "blessed-weapon",
+    "name": "Blessed Weapon",
+    "category": "Miracle",
+    "order": 23
+  },
+  {
+    "id": "lightning-blade",
+    "name": "Lightning Blade",
+    "category": "Miracle",
+    "order": 24
+  },
+  {
+    "id": "darkmoon-blade",
+    "name": "Darkmoon Blade",
+    "category": "Miracle",
+    "order": 25
+  },
+  {
+    "id": "magic-barrier",
+    "name": "Magic Barrier",
+    "category": "Miracle",
+    "order": 26
+  },
+  {
+    "id": "great-magic-barrier",
+    "name": "Great Magic Barrier",
+    "category": "Miracle",
+    "order": 27
+  },
+  {
+    "id": "dark-blade",
+    "name": "Dark Blade",
+    "category": "Miracle",
+    "order": 28
+  },
+  {
+    "id": "vow-of-silence",
+    "name": "Vow of Silence",
+    "category": "Miracle",
+    "order": 29
+  },
+  {
+    "id": "dead-again",
+    "name": "Dead Again",
+    "category": "Miracle",
+    "order": 30
+  },
+  {
+    "id": "atonement",
+    "name": "Atonement",
+    "category": "Miracle",
+    "order": 31
+  },
+  {
+    "id": "deep-protection",
+    "name": "Deep Protection",
+    "category": "Miracle",
+    "order": 32
+  },
+  {
+    "id": "gnaw",
+    "name": "Gnaw",
+    "category": "Miracle",
+    "order": 33
+  },
+  {
+    "id": "dorhys-gnawing",
+    "name": "Dorhys' Gnawing",
+    "category": "Miracle",
+    "order": 34
+  },
+  {
+    "id": "lifehunt-scythe",
+    "name": "Lifehunt Scythe",
+    "category": "Miracle",
+    "order": 35
+  },
+  {
+    "id": "way-of-white-corona",
+    "name": "Way of White Corona",
+    "category": "Miracle",
+    "order": 36
+  },
+  {
+    "id": "projected-heal",
+    "name": "Projected Heal",
+    "category": "Miracle",
+    "order": 37
+  },
+  {
+    "id": "lightning-arrow",
+    "name": "Lightning Arrow",
+    "category": "Miracle",
+    "order": 38
+  },
+  {
+    "id": "soul-arrow",
+    "name": "Soul Arrow",
+    "category": "Sorcery",
+    "order": 1
+  },
+  {
+    "id": "great-soul-arrow",
+    "name": "Great Soul Arrow",
+    "category": "Sorcery",
+    "order": 2
+  },
+  {
+    "id": "heavy-soul-arrow",
+    "name": "Heavy Soul Arrow",
+    "category": "Sorcery",
+    "order": 3
+  },
+  {
+    "id": "great-heavy-soul-arrow",
+    "name": "Great Heavy Soul Arrow",
+    "category": "Sorcery",
+    "order": 4
+  },
+  {
+    "id": "farron-dart",
+    "name": "Farron Dart",
+    "category": "Sorcery",
+    "order": 5
+  },
+  {
+    "id": "great-farron-dart",
+    "name": "Great Farron Dart",
+    "category": "Sorcery",
+    "order": 6
+  },
+  {
+    "id": "farron-hail",
+    "name": "Farron Hail",
+    "category": "Sorcery",
+    "order": 7
+  },
+  {
+    "id": "homing-soulmass",
+    "name": "Homing Soulmass",
+    "category": "Sorcery",
+    "order": 8
+  },
+  {
+    "id": "homing-crystal-soulmass",
+    "name": "Homing Crystal Soulmass",
+    "category": "Sorcery",
+    "order": 9
+  },
+  {
+    "id": "crystal-hail",
+    "name": "Crystal Hail",
+    "category": "Sorcery",
+    "order": 10
+  },
+  {
+    "id": "soul-spear",
+    "name": "Soul Spear",
+    "category": "Sorcery",
+    "order": 11
+  },
+  {
+    "id": "crystal-soul-spear",
+    "name": "Crystal Soul Spear",
+    "category": "Sorcery",
+    "order": 12
+  },
+  {
+    "id": "white-dragon-breath",
+    "name": "White Dragon Breath",
+    "category": "Sorcery",
+    "order": 13
+  },
+  {
+    "id": "soul-stream",
+    "name": "Soul Stream",
+    "category": "Sorcery",
+    "order": 14
+  },
+  {
+    "id": "soul-greatsword",
+    "name": "Soul Greatsword",
+    "category": "Sorcery",
+    "order": 15
+  },
+  {
+    "id": "farron-flashsword",
+    "name": "Farron Flashsword",
+    "category": "Sorcery",
+    "order": 16
+  },
+  {
+    "id": "magic-weapon",
+    "name": "Magic Weapon",
+    "category": "Sorcery",
+    "order": 17
+  },
+  {
+    "id": "great-magic-weapon",
+    "name": "Great Magic Weapon",
+    "category": "Sorcery",
+    "order": 18
+  },
+  {
+    "id": "crystal-magic-weapon",
+    "name": "Crystal Magic Weapon",
+    "category": "Sorcery",
+    "order": 19
+  },
+  {
+    "id": "magic-shield",
+    "name": "Magic Shield",
+    "category": "Sorcery",
+    "order": 20
+  },
+  {
+    "id": "great-magic-shield",
+    "name": "Great Magic Shield",
+    "category": "Sorcery",
+    "order": 21
+  },
+  {
+    "id": "spook",
+    "name": "Spook",
+    "category": "Sorcery",
+    "order": 22
+  },
+  {
+    "id": "aural-decoy",
+    "name": "Aural Decoy",
+    "category": "Sorcery",
+    "order": 23
+  },
+  {
+    "id": "pestilent-mist",
+    "name": "Pestilent Mist",
+    "category": "Sorcery",
+    "order": 24
+  },
+  {
+    "id": "cast-light",
+    "name": "Cast Light",
+    "category": "Sorcery",
+    "order": 25
+  },
+  {
+    "id": "repair",
+    "name": "Repair",
+    "category": "Sorcery",
+    "order": 26
+  },
+  {
+    "id": "hidden-weapon",
+    "name": "Hidden Weapon",
+    "category": "Sorcery",
+    "order": 27
+  },
+  {
+    "id": "hidden-body",
+    "name": "Hidden Body",
+    "category": "Sorcery",
+    "order": 28
+  },
+  {
+    "id": "chameleon",
+    "name": "Chameleon",
+    "category": "Sorcery",
+    "order": 29
+  },
+  {
+    "id": "twisted-wall-of-light",
+    "name": "Twisted Wall of Light",
+    "category": "Sorcery",
+    "order": 30
+  },
+  {
+    "id": "deep-soul",
+    "name": "Deep Soul",
+    "category": "Sorcery",
+    "order": 31
+  },
+  {
+    "id": "great-deep-soul",
+    "name": "Great Deep Soul",
+    "category": "Sorcery",
+    "order": 32
+  },
+  {
+    "id": "affinity",
+    "name": "Affinity",
+    "category": "Sorcery",
+    "order": 33
+  },
+  {
+    "id": "dark-edge",
+    "name": "Dark Edge",
+    "category": "Sorcery",
+    "order": 34
+  },
+  {
+    "id": "frozen-weapon",
+    "name": "Frozen Weapon",
+    "category": "Sorcery",
+    "order": 35,
+    "isDLC": true,
+    "dlcName": "Ashes of Ariandel"
+  },
+  {
+    "id": "snap-freeze",
+    "name": "Snap Freeze",
+    "category": "Sorcery",
+    "order": 36,
+    "isDLC": true,
+    "dlcName": "Ashes of Ariandel"
+  },
+  {
+    "id": "great-soul-dregs",
+    "name": "Great Soul Dregs",
+    "category": "Sorcery",
+    "order": 37,
+    "isDLC": true,
+    "dlcName": "The Ringed City"
+  },
+  {
+    "id": "old-moonlight",
+    "name": "Old Moonlight",
+    "category": "Sorcery",
+    "order": 38,
+    "isDLC": true,
+    "dlcName": "The Ringed City"
+  }
 ]

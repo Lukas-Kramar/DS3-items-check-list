@@ -5,6 +5,7 @@
 | 2026-04-29 | [SCSS partials missing `@use 'variables'`](2026-04-29-scss-missing-use-variables.md) | `src/styles/` | Fixed |
 | 2026-04-29 | [Deprecated Sass color functions](2026-04-29-sass-deprecated-color-functions.md) | `src/styles/_controls.scss` | Fixed |
 | 2026-04-29 | [fetch blocked on file:// protocol (CORS)](2026-04-29-cors-file-protocol.md) | `src/main.ts` | Fixed |
+| 2026-05-01 | [Stats panel clipped — weapon classes below "Spear" not visible](2026-05-01-stats-panel-clipping-weapons.md) | `src/styles/_controls.scss` | Fixed |
 
 ---
 

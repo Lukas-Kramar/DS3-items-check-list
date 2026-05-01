@@ -168,7 +168,7 @@
 .stats-container {
   overflow: hidden;
   transition: max-height 300ms ease;
-  max-height: 600px;
+  max-height: 2000px;
 
   &.collapsed {
     max-height: 0;

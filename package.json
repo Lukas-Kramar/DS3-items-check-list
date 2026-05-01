@@ -4,11 +4,13 @@
   "type": "module",
   "scripts": {
     "lint": "eslint src/**/*.ts",
+    "clean": "rm -rf dist && mkdir -p dist",
     "build:css": "sass src/styles/main.scss dist/styles.min.css --style=compressed --no-source-map",
     "build:js": "bun build src/main.ts --outfile dist/weapons-bundle.min.js --minify --target browser && bun build src/spells-main.ts --outfile dist/spells-bundle.min.js --minify --target browser && bun build src/rings-main.ts --outfile dist/rings-bundle.min.js --minify --target browser && bun build src/armor-main.ts --outfile dist/armor-bundle.min.js --minify --target browser && bun build src/dashboard-main.ts --outfile dist/dashboard-bundle.min.js --minify --target browser",
     "build:data": "cp src/data/weapons.json dist/weapons.json && cp src/data/spells.json dist/spells.json && cp src/data/rings.json dist/rings.json && cp src/data/armor.json dist/armor.json",
+    "build:assets": "cp favicon.ico dist/favicon.ico",
     "build:html": "cp src/index.html dist/index.html && cp src/weapons.html dist/weapons.html && cp src/spells.html dist/spells.html && cp src/rings.html dist/rings.html && cp src/armor.html dist/armor.html",
-    "build": "bun run lint && bun run build:css && bun run build:js && bun run build:data && bun run build:html"
+    "build": "bun run clean && bun run lint && bun run build:css && bun run build:js && bun run build:data && bun run build:assets && bun run build:html"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.0.0",

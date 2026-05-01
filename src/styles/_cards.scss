@@ -51,6 +51,7 @@
   display: flex;
   align-items: flex-start;
   gap: 0.65rem;
+  cursor: pointer;
 }
 
 .card-title-group {
@@ -63,9 +64,6 @@
   color: $text-primary;
   font-family: $font-heading;
   letter-spacing: 0.03em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 // Custom checkbox

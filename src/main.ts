@@ -1,5 +1,5 @@
 import type { Weapon } from "./types.js";
-import { appState, initChecklist, resetChecklist, resetNotes, exportState, importState } from "./state.js";
+import { appState, initChecklist, resetChecklist, resetNotes } from "./state.js";
 import { renderCards, renderCounter, renderFilterOptions, renderStatsPanel } from "./render.js";
 import { SEARCH_DEBOUNCE_MS } from "./constants.js";
 import weaponsData from "./data/weapons.json";
@@ -81,44 +81,6 @@ function bindResetControls(): void {
   });
 }
 
-// BONUS: export/import state as JSON
-function bindExportImport(): void {
-  const exportBtn = document.getElementById("btn-export");
-  const importBtn = document.getElementById("btn-import");
-  const importInput = document.getElementById("import-file") as HTMLInputElement | null;
-
-  exportBtn?.addEventListener("click", () => {
-    const json = exportState();
-    const blob = new Blob([json], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "ds3-checklist.json";
-    a.click();
-    URL.revokeObjectURL(url);
-  });
-
-  importBtn?.addEventListener("click", () => importInput?.click());
-
-  importInput?.addEventListener("change", () => {
-    const file = importInput.files?.[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = () => {
-      const ok = importState(reader.result as string);
-      if (!ok) {
-        alert("Invalid save file.");
-        return;
-      }
-      renderCards();
-      renderCounter();
-      renderStatsPanel();
-    };
-    reader.readAsText(file);
-    importInput.value = "";
-  });
-}
-
 // BONUS: keyboard shortcuts
 function bindKeyboardShortcuts(): void {
   document.addEventListener("keydown", (e) => {
@@ -153,7 +115,6 @@ function init(): void {
   renderStatsPanel();
   bindFilters();
   bindResetControls();
-  bindExportImport();
   bindKeyboardShortcuts();
   bindStatsToggle();
 }

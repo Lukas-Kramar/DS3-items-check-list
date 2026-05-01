@@ -31,6 +31,7 @@ function filterItems(items: SimpleItem[], filters: SimpleFilterState, checklist:
     if (search && !item.name.toLowerCase().includes(search)) return false;
     if (filters.category !== "all" && item.category !== filters.category) return false;
     if (filters.unobtainedOnly && getWeaponState(checklist, item.id).obtained) return false;
+    if (filters.dlcOnly && !item.isDLC) return false;
     return true;
   });
   return sortItems(result, filters.sortBy, checklist);
@@ -91,7 +92,7 @@ function renderCategoryOptions(state: SimplePageState): void {
     categories.map((c) => `<option value="${escHtml(c)}">${escHtml(c)}</option>`).join("");
 }
 
-function buildCard(item: SimpleItem, state: SimplePageState): HTMLElement {
+function buildCard(item: SimpleItem, state: SimplePageState, hideCategoryBadge?: (i: SimpleItem) => boolean): HTMLElement {
   const ws = getWeaponState(state.checklist, item.id);
   const card = document.createElement("article");
   card.className = `weapon-card${ws.obtained ? " obtained" : ""}${ws.note ? " has-note" : ""}`;
@@ -99,6 +100,13 @@ function buildCard(item: SimpleItem, state: SimplePageState): HTMLElement {
 
   const charCount = ws.note.length;
   const noteAtMax = charCount >= MAX_NOTE_LENGTH ? " at-max" : "";
+
+  const categoryBadge = hideCategoryBadge?.(item)
+    ? ""
+    : `<span class="badge badge-class">${escHtml(item.category)}</span>`;
+  const dlcBadge = item.isDLC
+    ? `<span class="badge badge-dlc">${escHtml(item.dlcName ?? "DLC")}</span>`
+    : "";
 
   card.innerHTML = `
     <div class="card-header">
@@ -109,7 +117,8 @@ function buildCard(item: SimpleItem, state: SimplePageState): HTMLElement {
       <div class="card-title-group">
         <h3 class="weapon-name">${escHtml(item.name)}</h3>
         <div class="badge-row">
-          <span class="badge badge-class">${escHtml(item.category)}</span>
+          ${categoryBadge}
+          ${dlcBadge}
         </div>
       </div>
       <button class="note-toggle" data-id="${item.id}" aria-label="Toggle note">
@@ -130,7 +139,7 @@ function buildCard(item: SimpleItem, state: SimplePageState): HTMLElement {
   return card;
 }
 
-function renderCards(state: SimplePageState, debouncedNote: (id: string, val: string) => void): void {
+function renderCards(state: SimplePageState, debouncedNote: (id: string, val: string) => void, hideCategoryBadge?: (i: SimpleItem) => boolean): void {
   const container = document.getElementById("item-list");
   if (!container) return;
 
@@ -143,7 +152,7 @@ function renderCards(state: SimplePageState, debouncedNote: (id: string, val: st
 
   const fragment = document.createDocumentFragment();
   for (const item of visible) {
-    fragment.appendChild(buildCard(item, state));
+    fragment.appendChild(buildCard(item, state, hideCategoryBadge));
   }
   container.innerHTML = "";
   container.appendChild(fragment);
@@ -156,6 +165,18 @@ function renderCards(state: SimplePageState, debouncedNote: (id: string, val: st
       cb.closest(".weapon-card")?.classList.toggle("obtained", cb.checked);
       renderCounter(state);
       renderStats(state);
+    });
+  });
+
+  container.querySelectorAll<HTMLElement>(".card-header").forEach((header) => {
+    header.addEventListener("click", (e) => {
+      const t = e.target as Element;
+      if (t.closest(".note-toggle")) return;
+      if (t.closest(".checkbox-wrap")) return;
+      const cb = header.querySelector<HTMLInputElement>(".weapon-checkbox");
+      if (!cb) return;
+      cb.checked = !cb.checked;
+      cb.dispatchEvent(new Event("change", { bubbles: true }));
     });
   });
 
@@ -187,7 +208,7 @@ function renderCards(state: SimplePageState, debouncedNote: (id: string, val: st
   });
 }
 
-export function createSimpleChecklist(items: SimpleItem[], storageKey: string) {
+export function createSimpleChecklist(items: SimpleItem[], storageKey: string, hideCategoryBadge?: (i: SimpleItem) => boolean) {
   const state: SimplePageState = {
     items,
     checklist: loadState(storageKey),
@@ -196,6 +217,7 @@ export function createSimpleChecklist(items: SimpleItem[], storageKey: string) {
       category: "all",
       unobtainedOnly: false,
       sortBy: "game-order",
+      dlcOnly: false,
     },
     storageKey,
   };
@@ -209,7 +231,7 @@ export function createSimpleChecklist(items: SimpleItem[], storageKey: string) {
   }, NOTE_DEBOUNCE_MS);
 
   function rerender(): void {
-    renderCards(state, debouncedNote);
+    renderCards(state, debouncedNote, hideCategoryBadge);
     renderCounter(state);
     renderStats(state);
   }
@@ -247,6 +269,12 @@ export function createSimpleChecklist(items: SimpleItem[], storageKey: string) {
         state.filters.unobtainedOnly = unobtainedToggle.checked;
         rerender();
       });
+
+      const dlcToggle = document.getElementById("toggle-dlc") as HTMLInputElement | null;
+      dlcToggle?.addEventListener("change", () => {
+        state.filters.dlcOnly = dlcToggle.checked;
+        rerender();
+      });
     },
 
     bindResetControls(): void {
@@ -272,42 +300,6 @@ export function createSimpleChecklist(items: SimpleItem[], storageKey: string) {
         state.checklist = updated;
         saveState(state.checklist, state.storageKey);
         rerender();
-      });
-    },
-
-    bindExportImport(filename: string): void {
-      const exportBtn = document.getElementById("btn-export");
-      const importBtn = document.getElementById("btn-import");
-      const importInput = document.getElementById("import-file") as HTMLInputElement | null;
-
-      exportBtn?.addEventListener("click", () => {
-        const json = JSON.stringify(state.checklist, null, 2);
-        const blob = new Blob([json], { type: "application/json" });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = filename;
-        a.click();
-        URL.revokeObjectURL(url);
-      });
-
-      importBtn?.addEventListener("click", () => importInput?.click());
-
-      importInput?.addEventListener("change", () => {
-        const file = importInput?.files?.[0];
-        if (!file) return;
-        const reader = new FileReader();
-        reader.onload = () => {
-          try {
-            state.checklist = JSON.parse(reader.result as string) as ChecklistState;
-            saveState(state.checklist, state.storageKey);
-            rerender();
-          } catch {
-            alert("Invalid save file.");
-          }
-        };
-        reader.readAsText(file);
-        if (importInput) importInput.value = "";
       });
     },
 

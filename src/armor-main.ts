@@ -7,6 +7,5 @@ const page = createSimpleChecklist(armorData as SimpleItem[], STORAGE_KEY_ARMOR)
 page.init();
 page.bindFilters();
 page.bindResetControls();
-page.bindExportImport("ds3-armor.json");
 page.bindKeyboardShortcuts();
 page.bindStatsToggle();

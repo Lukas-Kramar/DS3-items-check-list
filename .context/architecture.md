@@ -1,65 +1,94 @@
 # Architecture
 
+## Pages & bundles
+
+| HTML | Entry point | Bundle | What it does |
+|---|---|---|---|
+| `index.html` | `dashboard-main.ts` | `dashboard-bundle.min.js` | Progress overview + export/import all |
+| `weapons.html` | `main.ts` | `weapons-bundle.min.js` | Full weapons checklist (dedicated state + render) |
+| `spells.html` | `spells-main.ts` | `spells-bundle.min.js` | Spells via `createSimpleChecklist` |
+| `rings.html` | `rings-main.ts` | `rings-bundle.min.js` | Rings via `createSimpleChecklist` |
+| `armor.html` | `armor-main.ts` | `armor-bundle.min.js` | Armor via `createSimpleChecklist` |
+
+Shared: `styles.min.css`, `favicon.ico`
+
 ## Module map
 
 ```
 src/
-├── constants.ts   All magic strings/numbers (STORAGE_KEY, debounce timings, MAX_NOTE_LENGTH)
-├── types.ts       Interfaces: Weapon, WeaponState, ChecklistState, FilterState, SortOption
-├── storage.ts     localStorage I/O only — loadState, saveState, getWeaponState, patchWeapon
-├── filters.ts     Pure functions — filterWeapons, sortWeapons, getUniqueClasses, getUniqueDamageTypes
-├── state.ts       Mutable singleton appState + all mutation functions (setObtained, setNote, reset*, export/import)
-├── render.ts      All DOM writes — buildCard, renderCards, renderCounter, renderStatsPanel, renderFilterOptions
-├── main.ts        Bootstrap only — fetch weapons, init, bind top-level event listeners
-└── styles/
-    ├── _variables.scss   Colour palette, typography, spacing, transition tokens
-    ├── _reset.scss       Box-model reset, base element defaults
-    ├── _scrollbar.scss   Custom thin scrollbar (webkit + firefox)
-    ├── _layout.scss      Header, sidebar, main-layout, progress bar, responsive breakpoint
-    ├── _controls.scss    Filters, toggles, buttons, stats panel
-    ├── _badges.scss      .badge-class, .badge-dmg, .badge-dlc pill styles
-    ├── _cards.scss       .weapon-card, custom checkbox, note section, char counter
-    └── main.scss         @use directives only — no rules
+├── constants.ts          Storage keys, debounce timings, MAX_NOTE_LENGTH
+├── types.ts              Weapon, SimpleItem (+ optional isDLC/dlcName),
+│                         WeaponState, ChecklistState, FilterState, SimpleFilterState
+├── storage.ts            localStorage: loadState, saveState, getWeaponState, patchWeapon
+├── filters.ts            Pure: filterWeapons, getUniqueClasses, getUniqueDamageTypes (weapons only)
+├── state.ts              Weapons-page mutable singleton (appState) + mutation functions
+├── render.ts             Weapons-page DOM: buildCard, renderCards, renderCounter, renderStatsPanel
+├── main.ts               Weapons-page bootstrap
+├── simple-checklist.ts   Generic factory for spells/rings/armor (see below)
+├── dashboard-main.ts     Reads all 4 storage keys, renders progress cards, handles export/import
+├── spells-main.ts        Creates checklist instance; passes nothing for hideCategoryBadge
+├── rings-main.ts         Creates checklist instance; passes (item) => item.category === "NG"
+│                         to suppress base-game category badge
+├── armor-main.ts         Creates checklist instance
+└── styles/               _variables, _reset, _scrollbar, _layout, _controls, _badges, _cards
 ```
+
+## simple-checklist.ts — the generic factory
+
+```
+createSimpleChecklist(items, storageKey, hideCategoryBadge?) → { init, bindFilters,
+  bindResetControls, bindKeyboardShortcuts, bindStatsToggle }
+```
+
+- Owns its own `SimplePageState` (items, checklist, filters)
+- `hideCategoryBadge?: (item: SimpleItem) => boolean` — predicate to suppress the category
+  badge per item (used by rings to hide the "NG" first-run tag)
+- DLC badge rendered automatically when `item.isDLC === true` → `badge-dlc` with `item.dlcName`
+- Filter state: `search`, `category`, `unobtainedOnly`, `sortBy`, `dlcOnly`
 
 ## Data flow
 
 ```
-fetch("weapons.json")
-  → Weapon[]                             stored in appState.weapons
-  → localStorage("ds3-checklist-state") → ChecklistState
-  → merged into appState.checklist
-  → renderFilterOptions()                populates class/damage dropdowns from live data
-  → renderCards()                        builds DOM from filtered appState
+ES import (build-time) → Item[]        bundled into each page's .min.js
+localStorage(storageKey) → ChecklistState
 
 User interaction:
-  checkbox     → setObtained() → patchWeapon() → saveState()  → update card class + counter
-  note input   → debounce 300ms → setNote()   → patchWeapon() → saveState()
-  filter/sort  → mutate appState.filters → renderCards() (full re-render of list)
-  reset btn    → confirm() → reset*() → saveState() → renderCards()
-  export btn   → JSON.stringify(checklist) → Blob download
-  import btn   → FileReader → importState() → saveState() → renderCards()
+  card-header click (not note-toggle, not checkbox-wrap)
+                     → toggle checkbox → dispatch change event → setObtained/patchWeapon → saveState
+  checkbox change    → setObtained / patchWeapon → saveState → update card class + counter
+  note input         → debounce 300ms → setNote / patchWeapon → saveState
+  filter/sort toggle → mutate filters → full renderCards()
+  export (dashboard) → bundle all 4 checklists → Blob download as ds3-checklist-all.json
+  import (dashboard) → FileReader → parse → saveState × 4 → re-render progress cards
+```
+
+## Build
+
+```
+bun run build
+  = clean (rm -rf dist && mkdir dist)
+  + lint (eslint)
+  + build:css (sass)
+  + build:js (bun build × 5 bundles)
+  + build:data (cp JSON files)
+  + build:assets (cp favicon.ico)
+  + build:html (cp HTML files)
 ```
 
 ## dist/ output
 
-```
-dist/
-  index.html       Static shell — loads bundle.min.js + styles.min.css via relative paths
-  bundle.min.js    All 6 TS modules bundled + minified by Bun (~8.7 KB)
-  styles.min.css   All SCSS partials compiled + minified by sass CLI (~9.2 KB)
-  weapons.json     Copy of src/data/weapons.json — ~64 KB, ~200 weapons
-```
+All 5 HTML + 5 JS bundles + styles.min.css + 4 JSON files + favicon.ico.
+JSON files are copied but not used at runtime — all item data is ES-imported into bundles.
 
 ## Dependency direction
 
 ```
-main.ts → state.ts → storage.ts → constants.ts
-       → render.ts → filters.ts → storage.ts
-                   → state.ts
-       → filters.ts
-types.ts  ← used by all modules (type-only imports)
-constants.ts ← used by storage, state, render
+*-main.ts → simple-checklist.ts → storage.ts → constants.ts
+main.ts   → state.ts             → storage.ts
+          → render.ts            → filters.ts
+          → filters.ts
+dashboard-main.ts → storage.ts, constants.ts
+types.ts ← all modules (type-only)
 ```
 
-No circular dependencies. `filters.ts` and `storage.ts` have no imports from the rest of the app.
+No circular dependencies.

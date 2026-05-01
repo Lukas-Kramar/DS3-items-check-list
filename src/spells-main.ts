@@ -7,6 +7,5 @@ const page = createSimpleChecklist(spellsData as SimpleItem[], STORAGE_KEY_SPELL
 page.init();
 page.bindFilters();
 page.bindResetControls();
-page.bindExportImport("ds3-spells.json");
 page.bindKeyboardShortcuts();
 page.bindStatsToggle();
