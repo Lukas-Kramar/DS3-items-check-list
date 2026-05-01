@@ -564,14 +564,14 @@
     "order": 94
   },
   {
-    "id": "fire-clutch-ring",
-    "name": "Fire Clutch Ring",
+    "id": "lightning-clutch-ring",
+    "name": "Lightning Clutch Ring",
     "category": "Ring",
     "order": 95
   },
   {
-    "id": "lightning-clutch-ring",
-    "name": "Lightning Clutch Ring",
+    "id": "fire-clutch-ring",
+    "name": "Fire Clutch Ring",
     "category": "Ring",
     "order": 96
   },
