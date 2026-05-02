@@ -1,249 +1,2168 @@
 [
-  { "id": "standard-helm", "name": "Standard Helm", "category": "Helm", "order": 1 },
-  { "id": "helm-of-favor", "name": "Helm of Favor", "category": "Helm", "order": 2 },
-  { "id": "helm-of-thorns", "name": "Helm of Thorns", "category": "Helm", "order": 3 },
-  { "id": "alva-helm", "name": "Alva Helm", "category": "Helm", "order": 4 },
-  { "id": "brigand-hood", "name": "Brigand Hood", "category": "Helm", "order": 5 },
-  { "id": "lucatiels-mask", "name": "Lucatiel's Mask", "category": "Helm", "order": 6 },
-  { "id": "mirrah-chain-helm", "name": "Mirrah Chain Helm", "category": "Helm", "order": 7 },
-  { "id": "northern-helm", "name": "Northern Helm", "category": "Helm", "order": 8 },
-  { "id": "creightons-steel-mask", "name": "Creighton's Steel Mask", "category": "Helm", "order": 9 },
-  { "id": "sellsword-helm", "name": "Sellsword Helm", "category": "Helm", "order": 10 },
-  { "id": "undead-legion-helm", "name": "Undead Legion Helm", "category": "Helm", "order": 11 },
-  { "id": "faraam-helm", "name": "Faraam Helm", "category": "Helm", "order": 12 },
-  { "id": "herald-helm", "name": "Herald Helm", "category": "Helm", "order": 13 },
-  { "id": "knight-helm", "name": "Knight Helm", "category": "Helm", "order": 14 },
-  { "id": "elite-knight-helm", "name": "Elite Knight Helm", "category": "Helm", "order": 15 },
-  { "id": "drakeblood-helm", "name": "Drakeblood Helm", "category": "Helm", "order": 16 },
-  { "id": "fire-witch-helm", "name": "Fire Witch Helm", "category": "Helm", "order": 17 },
-  { "id": "lothric-knight-helm", "name": "Lothric Knight Helm", "category": "Helm", "order": 18 },
-  { "id": "lorians-helm", "name": "Lorian's Helm", "category": "Helm", "order": 19 },
-  { "id": "black-knight-helm", "name": "Black Knight Helm", "category": "Helm", "order": 20 },
-  { "id": "silver-knight-helm", "name": "Silver Knight Helm", "category": "Helm", "order": 21 },
-  { "id": "dragonslayer-helm", "name": "Dragonslayer Helm", "category": "Helm", "order": 22 },
-  { "id": "wolf-knight-helm", "name": "Wolf Knight Helm", "category": "Helm", "order": 23 },
-  { "id": "smoughs-helm", "name": "Smough's Helm", "category": "Helm", "order": 24 },
-  { "id": "sunset-helm", "name": "Sunset Helm", "category": "Helm", "order": 25 },
-  { "id": "sunless-veil", "name": "Sunless Veil", "category": "Helm", "order": 26 },
-  { "id": "brass-helm", "name": "Brass Helm", "category": "Helm", "order": 27 },
-  { "id": "eastern-helm", "name": "Eastern Helm", "category": "Helm", "order": 28 },
-  { "id": "executioner-helm", "name": "Executioner Helm", "category": "Helm", "order": 29 },
-  { "id": "exile-mask", "name": "Exile Mask", "category": "Helm", "order": 30 },
-  { "id": "gundyrs-helm", "name": "Gundyr's Helm", "category": "Helm", "order": 31 },
-  { "id": "havels-helm", "name": "Havel's Helm", "category": "Helm", "order": 32 },
-  { "id": "iron-dragonslayer-helm", "name": "Iron Dragonslayer Helm", "category": "Helm", "order": 33 },
-  { "id": "nameless-king-crown", "name": "Nameless King Crown", "category": "Helm", "order": 34 },
-  { "id": "dancers-crown", "name": "Dancer's Crown", "category": "Helm", "order": 35 },
-  { "id": "dark-mask", "name": "Dark Mask", "category": "Helm", "order": 36 },
-  { "id": "black-iron-helm", "name": "Black Iron Helm", "category": "Helm", "order": 37 },
-  { "id": "firelink-helm", "name": "Firelink Helm", "category": "Helm", "order": 38 },
-  { "id": "golden-crown", "name": "Golden Crown", "category": "Helm", "order": 39 },
-  { "id": "outrider-knight-helm", "name": "Outrider Knight Helm", "category": "Helm", "order": 40 },
-  { "id": "pontiff-knight-crown", "name": "Pontiff Knight Crown", "category": "Helm", "order": 41 },
-  { "id": "winged-knight-helm", "name": "Winged Knight Helm", "category": "Helm", "order": 42 },
-  { "id": "cathedral-knight-helm", "name": "Cathedral Knight Helm", "category": "Helm", "order": 43 },
-  { "id": "jailer-hood", "name": "Jailer Hood", "category": "Helm", "order": 44 },
-  { "id": "karlas-pointed-hat", "name": "Karla's Pointed Hat", "category": "Helm", "order": 45 },
-  { "id": "court-sorcerer-hood", "name": "Court Sorcerer Hood", "category": "Helm", "order": 46 },
-  { "id": "old-sorcerer-hat", "name": "Old Sorcerer Hat", "category": "Helm", "order": 47 },
-  { "id": "sorcerer-hood", "name": "Sorcerer Hood", "category": "Helm", "order": 48 },
-  { "id": "cleric-hat", "name": "Cleric Hat", "category": "Helm", "order": 49 },
-  { "id": "maiden-hood", "name": "Maiden Hood", "category": "Helm", "order": 50 },
-  { "id": "fire-keeper-hood", "name": "Fire Keeper Hood", "category": "Helm", "order": 51 },
-  { "id": "pyromancer-crown", "name": "Pyromancer Crown", "category": "Helm", "order": 52 },
-  { "id": "cornyxs-mask", "name": "Cornyx's Mask", "category": "Helm", "order": 53 },
-  { "id": "white-preacher-head", "name": "White Preacher Head", "category": "Helm", "order": 54 },
-  { "id": "black-witch-hat", "name": "Black Witch Hat", "category": "Helm", "order": 55 },
-  { "id": "black-witch-veil", "name": "Black Witch Veil", "category": "Helm", "order": 56 },
-  { "id": "desert-pyromancer-hood", "name": "Desert Pyromancer Hood", "category": "Helm", "order": 57 },
-  { "id": "ordained-hood", "name": "Ordained Hood", "category": "Helm", "order": 58 },
-  { "id": "painting-guardian-hood", "name": "Painting Guardian Hood", "category": "Helm", "order": 59 },
-  { "id": "grave-warden-hood", "name": "Grave Warden Hood", "category": "Helm", "order": 60 },
-  { "id": "worker-hat", "name": "Worker Hat", "category": "Helm", "order": 61 },
-  { "id": "thrall-hood", "name": "Thrall Hood", "category": "Helm", "order": 62 },
-  { "id": "slave-knight-hood", "name": "Slave Knight Hood", "category": "Helm", "order": 63 },
-  { "id": "vilhelms-helm", "name": "Vilhelm's Helm", "category": "Helm", "order": 64 },
-  { "id": "millwood-knight-helm", "name": "Millwood Knight Helm", "category": "Helm", "order": 65 },
-  { "id": "follower-helm", "name": "Follower Helm", "category": "Helm", "order": 66 },
-  { "id": "lapps-helm", "name": "Lapp's Helm", "category": "Helm", "order": 67 },
-  { "id": "ruin-helm", "name": "Ruin Helm", "category": "Helm", "order": 68 },
-  { "id": "ringed-knight-hood", "name": "Ringed Knight Hood", "category": "Helm", "order": 69 },
-  { "id": "shiras-crown", "name": "Shira's Crown", "category": "Helm", "order": 70 },
-  { "id": "alva-armor", "name": "Alva Armor", "category": "Chest", "order": 1 },
-  { "id": "armor-of-favor", "name": "Armor of Favor", "category": "Chest", "order": 2 },
-  { "id": "armor-of-the-sun", "name": "Armor of the Sun", "category": "Chest", "order": 3 },
-  { "id": "armor-of-thorns", "name": "Armor of Thorns", "category": "Chest", "order": 4 },
-  { "id": "antiquated-plain-garb", "name": "Antiquated Plain Garb", "category": "Chest", "order": 5 },
-  { "id": "antiquated-dress", "name": "Antiquated Dress", "category": "Chest", "order": 6 },
-  { "id": "archdeacon-holy-garb", "name": "Archdeacon Holy Garb", "category": "Chest", "order": 7 },
-  { "id": "assassin-armor", "name": "Assassin Armor", "category": "Chest", "order": 8 },
-  { "id": "black-hand-armor", "name": "Black Hand Armor", "category": "Chest", "order": 9 },
-  { "id": "black-iron-armor", "name": "Black Iron Armor", "category": "Chest", "order": 10 },
-  { "id": "black-knight-armor", "name": "Black Knight Armor", "category": "Chest", "order": 11 },
-  { "id": "black-leather-armor", "name": "Black Leather Armor", "category": "Chest", "order": 12 },
-  { "id": "black-witch-garb", "name": "Black Witch Garb", "category": "Chest", "order": 13 },
-  { "id": "brigand-armor", "name": "Brigand Armor", "category": "Chest", "order": 14 },
-  { "id": "catarina-armor", "name": "Catarina Armor", "category": "Chest", "order": 15 },
-  { "id": "cathedral-knight-armor", "name": "Cathedral Knight Armor", "category": "Chest", "order": 16 },
-  { "id": "cleric-blue-robe", "name": "Cleric Blue Robe", "category": "Chest", "order": 17 },
-  { "id": "cleric-robe", "name": "Cleric Robe", "category": "Chest", "order": 18 },
-  { "id": "cornyxs-garb", "name": "Cornyx's Garb", "category": "Chest", "order": 19 },
-  { "id": "court-sorcerer-robe", "name": "Court Sorcerer Robe", "category": "Chest", "order": 20 },
-  { "id": "dark-armor", "name": "Dark Armor", "category": "Chest", "order": 21 },
-  { "id": "deserter-armor", "name": "Deserter Armor", "category": "Chest", "order": 22 },
-  { "id": "dragonscale-armor", "name": "Dragonscale Armor", "category": "Chest", "order": 23 },
-  { "id": "drakeblood-armor", "name": "Drakeblood Armor", "category": "Chest", "order": 24 },
-  { "id": "eastern-armor", "name": "Eastern Armor", "category": "Chest", "order": 25 },
-  { "id": "executioner-armor", "name": "Executioner Armor", "category": "Chest", "order": 26 },
-  { "id": "exile-armor", "name": "Exile Armor", "category": "Chest", "order": 27 },
-  { "id": "fallen-knight-armor", "name": "Fallen Knight Armor", "category": "Chest", "order": 28 },
-  { "id": "fire-keeper-robe", "name": "Fire Keeper Robe", "category": "Chest", "order": 29 },
-  { "id": "fire-witch-armor", "name": "Fire Witch Armor", "category": "Chest", "order": 30 },
-  { "id": "firelink-armor", "name": "Firelink Armor", "category": "Chest", "order": 31 },
-  { "id": "follower-armor", "name": "Follower Armor", "category": "Chest", "order": 32 },
-  { "id": "faraam-armor", "name": "Faraam Armor", "category": "Chest", "order": 33 },
-  { "id": "grave-warden-robe", "name": "Grave Warden Robe", "category": "Chest", "order": 34 },
-  { "id": "herald-armor", "name": "Herald Armor", "category": "Chest", "order": 35 },
-  { "id": "jailer-robe", "name": "Jailer Robe", "category": "Chest", "order": 36 },
-  { "id": "karlas-coat", "name": "Karla's Coat", "category": "Chest", "order": 37 },
-  { "id": "knight-armor", "name": "Knight Armor", "category": "Chest", "order": 38 },
-  { "id": "lapps-armor", "name": "Lapp's Armor", "category": "Chest", "order": 39 },
-  { "id": "leonhards-garb", "name": "Leonhard's Garb", "category": "Chest", "order": 40 },
-  { "id": "lorians-armor", "name": "Lorian's Armor", "category": "Chest", "order": 41 },
-  { "id": "lothric-knight-armor", "name": "Lothric Knight Armor", "category": "Chest", "order": 42 },
-  { "id": "maiden-robe", "name": "Maiden Robe", "category": "Chest", "order": 43 },
-  { "id": "millwood-knight-armor", "name": "Millwood Knight Armor", "category": "Chest", "order": 44 },
-  { "id": "mirrah-vest", "name": "Mirrah Vest", "category": "Chest", "order": 45 },
-  { "id": "mornes-armor", "name": "Morne's Armor", "category": "Chest", "order": 46 },
-  { "id": "nameless-knight-armor", "name": "Nameless Knight Armor", "category": "Chest", "order": 47 },
-  { "id": "old-sorcerer-coat", "name": "Old Sorcerer Coat", "category": "Chest", "order": 48 },
-  { "id": "outrider-knight-armor", "name": "Outrider Knight Armor", "category": "Chest", "order": 49 },
-  { "id": "painting-guardian-gown", "name": "Painting Guardian Gown", "category": "Chest", "order": 50 },
-  { "id": "pontiff-knight-armor", "name": "Pontiff Knight Armor", "category": "Chest", "order": 51 },
-  { "id": "pyromancer-garb", "name": "Pyromancer Garb", "category": "Chest", "order": 52 },
-  { "id": "ragged-robe", "name": "Ragged Robe", "category": "Chest", "order": 53 },
-  { "id": "ringed-knight-armor", "name": "Ringed Knight Armor", "category": "Chest", "order": 54 },
-  { "id": "robe-of-prayer", "name": "Robe of Prayer", "category": "Chest", "order": 55 },
-  { "id": "sellsword-armor", "name": "Sellsword Armor", "category": "Chest", "order": 56 },
-  { "id": "shadow-garb", "name": "Shadow Garb", "category": "Chest", "order": 57 },
-  { "id": "silver-knight-armor", "name": "Silver Knight Armor", "category": "Chest", "order": 58 },
-  { "id": "slave-knight-armor", "name": "Slave Knight Armor", "category": "Chest", "order": 59 },
-  { "id": "smoughs-armor", "name": "Smough's Armor", "category": "Chest", "order": 60 },
-  { "id": "sunless-armor", "name": "Sunless Armor", "category": "Chest", "order": 61 },
-  { "id": "sunset-armor", "name": "Sunset Armor", "category": "Chest", "order": 62 },
-  { "id": "vilhelms-armor", "name": "Vilhelm's Armor", "category": "Chest", "order": 63 },
-  { "id": "worker-garb", "name": "Worker Garb", "category": "Chest", "order": 64 },
-  { "id": "ordained-dress", "name": "Ordained Dress", "category": "Chest", "order": 65 },
-  { "id": "desert-pyromancer-garb", "name": "Desert Pyromancer Garb", "category": "Chest", "order": 66 },
-  { "id": "hard-leather-gauntlets", "name": "Hard Leather Gauntlets", "category": "Gauntlets", "order": 1 },
-  { "id": "gauntlets-of-favor", "name": "Gauntlets of Favor", "category": "Gauntlets", "order": 2 },
-  { "id": "gauntlets-of-thorns", "name": "Gauntlets of Thorns", "category": "Gauntlets", "order": 3 },
-  { "id": "alva-gauntlets", "name": "Alva Gauntlets", "category": "Gauntlets", "order": 4 },
-  { "id": "brigand-gauntlets", "name": "Brigand Gauntlets", "category": "Gauntlets", "order": 5 },
-  { "id": "mirrah-gloves", "name": "Mirrah Gloves", "category": "Gauntlets", "order": 6 },
-  { "id": "drakeblood-gauntlets", "name": "Drakeblood Gauntlets", "category": "Gauntlets", "order": 7 },
-  { "id": "faraam-gauntlets", "name": "Faraam Gauntlets", "category": "Gauntlets", "order": 8 },
-  { "id": "sunset-gauntlets", "name": "Sunset Gauntlets", "category": "Gauntlets", "order": 9 },
-  { "id": "sunless-gauntlets", "name": "Sunless Gauntlets", "category": "Gauntlets", "order": 10 },
-  { "id": "brass-gauntlets", "name": "Brass Gauntlets", "category": "Gauntlets", "order": 11 },
-  { "id": "eastern-gauntlets", "name": "Eastern Gauntlets", "category": "Gauntlets", "order": 12 },
-  { "id": "fire-witch-gauntlets", "name": "Fire Witch Gauntlets", "category": "Gauntlets", "order": 13 },
-  { "id": "dancers-gauntlets", "name": "Dancer's Gauntlets", "category": "Gauntlets", "order": 14 },
-  { "id": "dark-gauntlets", "name": "Dark Gauntlets", "category": "Gauntlets", "order": 15 },
-  { "id": "black-knight-gauntlets", "name": "Black Knight Gauntlets", "category": "Gauntlets", "order": 16 },
-  { "id": "silver-knight-gauntlets", "name": "Silver Knight Gauntlets", "category": "Gauntlets", "order": 17 },
-  { "id": "dragonslayer-gauntlets", "name": "Dragonslayer Gauntlets", "category": "Gauntlets", "order": 18 },
-  { "id": "wolf-knight-gauntlets", "name": "Wolf Knight Gauntlets", "category": "Gauntlets", "order": 19 },
-  { "id": "smoughs-gauntlets", "name": "Smough's Gauntlets", "category": "Gauntlets", "order": 20 },
-  { "id": "lorians-gauntlets", "name": "Lorian's Gauntlets", "category": "Gauntlets", "order": 21 },
-  { "id": "golden-bracelets", "name": "Golden Bracelets", "category": "Gauntlets", "order": 22 },
-  { "id": "firelink-gauntlets", "name": "Firelink Gauntlets", "category": "Gauntlets", "order": 23 },
-  { "id": "black-iron-gauntlets", "name": "Black Iron Gauntlets", "category": "Gauntlets", "order": 24 },
-  { "id": "executioner-gauntlets", "name": "Executioner Gauntlets", "category": "Gauntlets", "order": 25 },
-  { "id": "exile-gauntlets", "name": "Exile Gauntlets", "category": "Gauntlets", "order": 26 },
-  { "id": "gundyrs-gauntlets", "name": "Gundyr's Gauntlets", "category": "Gauntlets", "order": 27 },
-  { "id": "havels-gauntlets", "name": "Havel's Gauntlets", "category": "Gauntlets", "order": 28 },
-  { "id": "outrider-knight-gauntlets", "name": "Outrider Knight Gauntlets", "category": "Gauntlets", "order": 29 },
-  { "id": "pontiff-knight-gauntlets", "name": "Pontiff Knight Gauntlets", "category": "Gauntlets", "order": 30 },
-  { "id": "winged-knight-gauntlets", "name": "Winged Knight Gauntlets", "category": "Gauntlets", "order": 31 },
-  { "id": "cathedral-knight-gauntlets", "name": "Cathedral Knight Gauntlets", "category": "Gauntlets", "order": 32 },
-  { "id": "jailer-gloves", "name": "Jailer Gloves", "category": "Gauntlets", "order": 33 },
-  { "id": "karlas-gloves", "name": "Karla's Gloves", "category": "Gauntlets", "order": 34 },
-  { "id": "court-sorcerer-gloves", "name": "Court Sorcerer Gloves", "category": "Gauntlets", "order": 35 },
-  { "id": "old-sorcerer-gloves", "name": "Old Sorcerer Gloves", "category": "Gauntlets", "order": 36 },
-  { "id": "sorcerer-gloves", "name": "Sorcerer Gloves", "category": "Gauntlets", "order": 37 },
-  { "id": "cleric-gloves", "name": "Cleric Gloves", "category": "Gauntlets", "order": 38 },
-  { "id": "maiden-gloves", "name": "Maiden Gloves", "category": "Gauntlets", "order": 39 },
-  { "id": "fire-keeper-gloves", "name": "Fire Keeper Gloves", "category": "Gauntlets", "order": 40 },
-  { "id": "pyromancer-gloves", "name": "Pyromancer Gloves", "category": "Gauntlets", "order": 41 },
-  { "id": "cornyxs-wrap", "name": "Cornyx's Wrap", "category": "Gauntlets", "order": 42 },
-  { "id": "black-witch-wrappings", "name": "Black Witch Wrappings", "category": "Gauntlets", "order": 43 },
-  { "id": "desert-pyromancer-gloves", "name": "Desert Pyromancer Gloves", "category": "Gauntlets", "order": 44 },
-  { "id": "ordained-gloves", "name": "Ordained Gloves", "category": "Gauntlets", "order": 45 },
-  { "id": "painting-guardian-gloves", "name": "Painting Guardian Gloves", "category": "Gauntlets", "order": 46 },
-  { "id": "grave-warden-wrap", "name": "Grave Warden Wrap", "category": "Gauntlets", "order": 47 },
-  { "id": "worker-gloves", "name": "Worker Gloves", "category": "Gauntlets", "order": 48 },
-  { "id": "thrall-hood-wrap-hands", "name": "Thrall Hood Wrap (Hands)", "category": "Gauntlets", "order": 49 },
-  { "id": "slave-knight-gauntlets", "name": "Slave Knight Gauntlets", "category": "Gauntlets", "order": 50 },
-  { "id": "vilhelms-gauntlets", "name": "Vilhelm's Gauntlets", "category": "Gauntlets", "order": 51 },
-  { "id": "millwood-knight-gauntlets", "name": "Millwood Knight Gauntlets", "category": "Gauntlets", "order": 52 },
-  { "id": "follower-gloves", "name": "Follower Gloves", "category": "Gauntlets", "order": 53 },
-  { "id": "lapps-gauntlets", "name": "Lapp's Gauntlets", "category": "Gauntlets", "order": 54 },
-  { "id": "ruin-gauntlets", "name": "Ruin Gauntlets", "category": "Gauntlets", "order": 55 },
-  { "id": "ringed-knight-gauntlets", "name": "Ringed Knight Gauntlets", "category": "Gauntlets", "order": 56 },
-  { "id": "shiras-gloves", "name": "Shira's Gloves", "category": "Gauntlets", "order": 57 },
-  { "id": "leggings-of-favor", "name": "Leggings of Favor", "category": "Leggings", "order": 1 },
-  { "id": "leggings-of-the-sun", "name": "Leggings of the Sun", "category": "Leggings", "order": 2 },
-  { "id": "leggings-of-thorns", "name": "Leggings of Thorns", "category": "Leggings", "order": 3 },
-  { "id": "alva-leggings", "name": "Alva Leggings", "category": "Leggings", "order": 4 },
-  { "id": "brigand-trousers", "name": "Brigand Trousers", "category": "Leggings", "order": 5 },
-  { "id": "mirrah-trousers", "name": "Mirrah Trousers", "category": "Leggings", "order": 6 },
-  { "id": "drakeblood-leggings", "name": "Drakeblood Leggings", "category": "Leggings", "order": 7 },
-  { "id": "faraam-boots", "name": "Faraam Boots", "category": "Leggings", "order": 8 },
-  { "id": "sunset-leggings", "name": "Sunset Leggings", "category": "Leggings", "order": 9 },
-  { "id": "sunless-leggings", "name": "Sunless Leggings", "category": "Leggings", "order": 10 },
-  { "id": "brass-leggings", "name": "Brass Leggings", "category": "Leggings", "order": 11 },
-  { "id": "eastern-leggings", "name": "Eastern Leggings", "category": "Leggings", "order": 12 },
-  { "id": "fire-witch-leggings", "name": "Fire Witch Leggings", "category": "Leggings", "order": 13 },
-  { "id": "dancers-leggings", "name": "Dancer's Leggings", "category": "Leggings", "order": 14 },
-  { "id": "dark-leggings", "name": "Dark Leggings", "category": "Leggings", "order": 15 },
-  { "id": "black-knight-leggings", "name": "Black Knight Leggings", "category": "Leggings", "order": 16 },
-  { "id": "silver-knight-leggings", "name": "Silver Knight Leggings", "category": "Leggings", "order": 17 },
-  { "id": "dragonslayer-leggings", "name": "Dragonslayer Leggings", "category": "Leggings", "order": 18 },
-  { "id": "wolf-knight-leggings", "name": "Wolf Knight Leggings", "category": "Leggings", "order": 19 },
-  { "id": "smoughs-leggings", "name": "Smough's Leggings", "category": "Leggings", "order": 20 },
-  { "id": "lorians-leggings", "name": "Lorian's Leggings", "category": "Leggings", "order": 21 },
-  { "id": "black-iron-leggings", "name": "Black Iron Leggings", "category": "Leggings", "order": 22 },
-  { "id": "executioner-leggings", "name": "Executioner Leggings", "category": "Leggings", "order": 23 },
-  { "id": "exile-leggings", "name": "Exile Leggings", "category": "Leggings", "order": 24 },
-  { "id": "gundyrs-leggings", "name": "Gundyr's Leggings", "category": "Leggings", "order": 25 },
-  { "id": "havels-leggings", "name": "Havel's Leggings", "category": "Leggings", "order": 26 },
-  { "id": "outrider-knight-leggings", "name": "Outrider Knight Leggings", "category": "Leggings", "order": 27 },
-  { "id": "pontiff-knight-leggings", "name": "Pontiff Knight Leggings", "category": "Leggings", "order": 28 },
-  { "id": "winged-knight-leggings", "name": "Winged Knight Leggings", "category": "Leggings", "order": 29 },
-  { "id": "cathedral-knight-leggings", "name": "Cathedral Knight Leggings", "category": "Leggings", "order": 30 },
-  { "id": "jailer-trousers", "name": "Jailer Trousers", "category": "Leggings", "order": 31 },
-  { "id": "karlas-trousers", "name": "Karla's Trousers", "category": "Leggings", "order": 32 },
-  { "id": "court-sorcerer-trousers", "name": "Court Sorcerer Trousers", "category": "Leggings", "order": 33 },
-  { "id": "old-sorcerer-boots", "name": "Old Sorcerer Boots", "category": "Leggings", "order": 34 },
-  { "id": "sorcerer-trousers", "name": "Sorcerer Trousers", "category": "Leggings", "order": 35 },
-  { "id": "cleric-trousers", "name": "Cleric Trousers", "category": "Leggings", "order": 36 },
-  { "id": "maiden-skirt", "name": "Maiden Skirt", "category": "Leggings", "order": 37 },
-  { "id": "fire-keeper-skirt", "name": "Fire Keeper Skirt", "category": "Leggings", "order": 38 },
-  { "id": "pyromancer-trousers", "name": "Pyromancer Trousers", "category": "Leggings", "order": 39 },
-  { "id": "black-witch-trousers", "name": "Black Witch Trousers", "category": "Leggings", "order": 40 },
-  { "id": "desert-pyromancer-skirt", "name": "Desert Pyromancer Skirt", "category": "Leggings", "order": 41 },
-  { "id": "ordained-trousers", "name": "Ordained Trousers", "category": "Leggings", "order": 42 },
-  { "id": "painting-guardian-waistcloth", "name": "Painting Guardian Waistcloth", "category": "Leggings", "order": 43 },
-  { "id": "grave-warden-skirt", "name": "Grave Warden Skirt", "category": "Leggings", "order": 44 },
-  { "id": "worker-trousers", "name": "Worker Trousers", "category": "Leggings", "order": 45 },
-  { "id": "thrall-hood-trousers-alt", "name": "Thrall Hood Trousers (Alt)", "category": "Leggings", "order": 46 },
-  { "id": "slave-knight-leggings", "name": "Slave Knight Leggings", "category": "Leggings", "order": 47 },
-  { "id": "vilhelms-leggings", "name": "Vilhelm's Leggings", "category": "Leggings", "order": 48 },
-  { "id": "millwood-knight-leggings", "name": "Millwood Knight Leggings", "category": "Leggings", "order": 49 },
-  { "id": "follower-boots", "name": "Follower Boots", "category": "Leggings", "order": 50 },
-  { "id": "lapps-leggings", "name": "Lapp's Leggings", "category": "Leggings", "order": 51 },
-  { "id": "ruin-leggings", "name": "Ruin Leggings", "category": "Leggings", "order": 52 },
-  { "id": "ringed-knight-leggings", "name": "Ringed Knight Leggings", "category": "Leggings", "order": 53 },
-  { "id": "shiras-trousers", "name": "Shira's Trousers", "category": "Leggings", "order": 54 }
+  {
+    "id": "standard-helm",
+    "name": "Standard Helm",
+    "category": "Helm",
+    "order": 1
+  },
+  {
+    "id": "brigand-hood",
+    "name": "Brigand Hood",
+    "category": "Helm",
+    "order": 2
+  },
+  {
+    "id": "lucatiel-mask",
+    "name": "Lucatiel Mask",
+    "category": "Helm",
+    "order": 3
+  },
+  {
+    "id": "chain-helm",
+    "name": "Chain Helm",
+    "category": "Helm",
+    "order": 4
+  },
+  {
+    "id": "northern-helm",
+    "name": "Northern Helm",
+    "category": "Helm",
+    "order": 5
+  },
+  {
+    "id": "creightons-steel-mask",
+    "name": "Creighton's Steel Mask",
+    "category": "Helm",
+    "order": 6
+  },
+  {
+    "id": "iron-helm",
+    "name": "Iron Helm",
+    "category": "Helm",
+    "order": 7
+  },
+  {
+    "id": "sellsword-helm",
+    "name": "Sellsword Helm",
+    "category": "Helm",
+    "order": 8
+  },
+  {
+    "id": "undead-legion-helm",
+    "name": "Undead Legion Helm",
+    "category": "Helm",
+    "order": 9
+  },
+  {
+    "id": "herald-helm",
+    "name": "Herald Helm",
+    "category": "Helm",
+    "order": 10
+  },
+  {
+    "id": "knight-helm",
+    "name": "Knight Helm",
+    "category": "Helm",
+    "order": 11
+  },
+  {
+    "id": "nameless-knight-helm",
+    "name": "Nameless Knight Helm",
+    "category": "Helm",
+    "order": 12
+  },
+  {
+    "id": "fallen-knight-helm",
+    "name": "Fallen Knight Helm",
+    "category": "Helm",
+    "order": 13
+  },
+  {
+    "id": "elite-knight-helm",
+    "name": "Elite Knight Helm",
+    "category": "Helm",
+    "order": 14
+  },
+  {
+    "id": "alva-helm",
+    "name": "Alva Helm",
+    "category": "Helm",
+    "order": 15
+  },
+  {
+    "id": "drakeblood-helm",
+    "name": "Drakeblood Helm",
+    "category": "Helm",
+    "order": 16
+  },
+  {
+    "id": "faraam-helm",
+    "name": "Faraam Helm",
+    "category": "Helm",
+    "order": 17
+  },
+  {
+    "id": "sunset-helm",
+    "name": "Sunset Helm",
+    "category": "Helm",
+    "order": 18
+  },
+  {
+    "id": "sunless-veil",
+    "name": "Sunless Veil",
+    "category": "Helm",
+    "order": 19
+  },
+  {
+    "id": "brass-helm",
+    "name": "Brass Helm",
+    "category": "Helm",
+    "order": 20
+  },
+  {
+    "id": "helm-of-favor",
+    "name": "Helm of Favor",
+    "category": "Helm",
+    "order": 21
+  },
+  {
+    "id": "eastern-helm",
+    "name": "Eastern Helm",
+    "category": "Helm",
+    "order": 22
+  },
+  {
+    "id": "helm-of-thorns",
+    "name": "Helm of Thorns",
+    "category": "Helm",
+    "order": 23
+  },
+  {
+    "id": "catarina-helm",
+    "name": "Catarina Helm",
+    "category": "Helm",
+    "order": 24
+  },
+  {
+    "id": "mornes-helm",
+    "name": "Morne's Helm",
+    "category": "Helm",
+    "order": 25
+  },
+  {
+    "id": "lothric-knight-helm",
+    "name": "Lothric Knight Helm",
+    "category": "Helm",
+    "order": 26
+  },
+  {
+    "id": "cathedral-knight-helm",
+    "name": "Cathedral Knight Helm",
+    "category": "Helm",
+    "order": 27
+  },
+  {
+    "id": "winged-knight-helm",
+    "name": "Winged Knight Helm",
+    "category": "Helm",
+    "order": 28
+  },
+  {
+    "id": "outrider-knight-helm",
+    "name": "Outrider Knight Helm",
+    "category": "Helm",
+    "order": 29
+  },
+  {
+    "id": "pontiff-knight-crown",
+    "name": "Pontiff Knight Crown",
+    "category": "Helm",
+    "order": 30
+  },
+  {
+    "id": "fire-witch-helm",
+    "name": "Fire Witch Helm",
+    "category": "Helm",
+    "order": 31
+  },
+  {
+    "id": "dancers-crown",
+    "name": "Dancer's Crown",
+    "category": "Helm",
+    "order": 32
+  },
+  {
+    "id": "dark-mask",
+    "name": "Dark Mask",
+    "category": "Helm",
+    "order": 33
+  },
+  {
+    "id": "black-knight-helm",
+    "name": "Black Knight Helm",
+    "category": "Helm",
+    "order": 34
+  },
+  {
+    "id": "silver-knight-helm",
+    "name": "Silver Knight Helm",
+    "category": "Helm",
+    "order": 35
+  },
+  {
+    "id": "dragonslayer-helm",
+    "name": "Dragonslayer Helm",
+    "category": "Helm",
+    "order": 36
+  },
+  {
+    "id": "wolf-knight-helm",
+    "name": "Wolf Knight Helm",
+    "category": "Helm",
+    "order": 37
+  },
+  {
+    "id": "smoughs-helm",
+    "name": "Smough's Helm",
+    "category": "Helm",
+    "order": 38
+  },
+  {
+    "id": "lorians-helm",
+    "name": "Lorian's Helm",
+    "category": "Helm",
+    "order": 39
+  },
+  {
+    "id": "golden-crown",
+    "name": "Golden Crown",
+    "category": "Helm",
+    "order": 40
+  },
+  {
+    "id": "firelink-helm",
+    "name": "Firelink Helm",
+    "category": "Helm",
+    "order": 41
+  },
+  {
+    "id": "black-iron-helm",
+    "name": "Black Iron Helm",
+    "category": "Helm",
+    "order": 42
+  },
+  {
+    "id": "executioner-helm",
+    "name": "Executioner Helm",
+    "category": "Helm",
+    "order": 43
+  },
+  {
+    "id": "exile-mask",
+    "name": "Exile Mask",
+    "category": "Helm",
+    "order": 44
+  },
+  {
+    "id": "gundyrs-helm",
+    "name": "Gundyr's Helm",
+    "category": "Helm",
+    "order": 45
+  },
+  {
+    "id": "havels-helm",
+    "name": "Havel's Helm",
+    "category": "Helm",
+    "order": 46
+  },
+  {
+    "id": "assassin-hood",
+    "name": "Assassin Hood",
+    "category": "Helm",
+    "order": 47
+  },
+  {
+    "id": "black-hand-hat",
+    "name": "Black Hand Hat",
+    "category": "Helm",
+    "order": 48
+  },
+  {
+    "id": "thief-mask",
+    "name": "Thief Mask",
+    "category": "Helm",
+    "order": 49
+  },
+  {
+    "id": "shadow-mask",
+    "name": "Shadow Mask",
+    "category": "Helm",
+    "order": 50
+  },
+  {
+    "id": "silver-mask",
+    "name": "Silver Mask",
+    "category": "Helm",
+    "order": 51
+  },
+  {
+    "id": "sneering-mask",
+    "name": "Sneering Mask",
+    "category": "Helm",
+    "order": 52
+  },
+  {
+    "id": "billed-mask",
+    "name": "Billed Mask",
+    "category": "Helm",
+    "order": 53
+  },
+  {
+    "id": "painting-guardian-hood",
+    "name": "Painting Guardian Hood",
+    "category": "Helm",
+    "order": 54
+  },
+  {
+    "id": "sorcerer-hood",
+    "name": "Sorcerer Hood",
+    "category": "Helm",
+    "order": 55
+  },
+  {
+    "id": "old-sorcerer-hat",
+    "name": "Old Sorcerer Hat",
+    "category": "Helm",
+    "order": 56
+  },
+  {
+    "id": "court-sorcerer-hood",
+    "name": "Court Sorcerer Hood",
+    "category": "Helm",
+    "order": 57
+  },
+  {
+    "id": "karlas-pointed-hat",
+    "name": "Karla's Pointed Hat",
+    "category": "Helm",
+    "order": 58
+  },
+  {
+    "id": "crown-of-dusk",
+    "name": "Crown of Dusk",
+    "category": "Helm",
+    "order": 59
+  },
+  {
+    "id": "xanthous-crown",
+    "name": "Xanthous Crown",
+    "category": "Helm",
+    "order": 60
+  },
+  {
+    "id": "sages-big-hat",
+    "name": "Sage's Big Hat",
+    "category": "Helm",
+    "order": 61
+  },
+  {
+    "id": "pyromancer-crown",
+    "name": "Pyromancer Crown",
+    "category": "Helm",
+    "order": 62
+  },
+  {
+    "id": "old-sages-blindfold",
+    "name": "Old Sage's Blindfold",
+    "category": "Helm",
+    "order": 63
+  },
+  {
+    "id": "conjurator-hood",
+    "name": "Conjurator Hood",
+    "category": "Helm",
+    "order": 64
+  },
+  {
+    "id": "cleric-hat",
+    "name": "Cleric Hat",
+    "category": "Helm",
+    "order": 65
+  },
+  {
+    "id": "maiden-hood",
+    "name": "Maiden Hood",
+    "category": "Helm",
+    "order": 66
+  },
+  {
+    "id": "evangelist-hat",
+    "name": "Evangelist Hat",
+    "category": "Helm",
+    "order": 67
+  },
+  {
+    "id": "archdeacon-white-crown",
+    "name": "Archdeacon White Crown",
+    "category": "Helm",
+    "order": 68
+  },
+  {
+    "id": "aristocrats-mask",
+    "name": "Aristocrat's Mask",
+    "category": "Helm",
+    "order": 69
+  },
+  {
+    "id": "hood-of-prayer",
+    "name": "Hood of Prayer",
+    "category": "Helm",
+    "order": 70
+  },
+  {
+    "id": "ragged-mask",
+    "name": "Ragged Mask",
+    "category": "Helm",
+    "order": 71
+  },
+  {
+    "id": "worker-hat",
+    "name": "Worker Hat",
+    "category": "Helm",
+    "order": 72
+  },
+  {
+    "id": "grave-warden-hood",
+    "name": "Grave Warden Hood",
+    "category": "Helm",
+    "order": 73
+  },
+  {
+    "id": "steel-soldier-helm",
+    "name": "Steel Soldier Helm",
+    "category": "Helm",
+    "order": 74
+  },
+  {
+    "id": "thrall-hood",
+    "name": "Thrall Hood",
+    "category": "Helm",
+    "order": 75
+  },
+  {
+    "id": "phariss-hat",
+    "name": "Pharis's Hat",
+    "category": "Helm",
+    "order": 76
+  },
+  {
+    "id": "wolnirs-crown",
+    "name": "Wolnir's Crown",
+    "category": "Helm",
+    "order": 77
+  },
+  {
+    "id": "symbol-of-avarice",
+    "name": "Symbol of Avarice",
+    "category": "Helm",
+    "order": 78
+  },
+  {
+    "id": "follower-helm",
+    "name": "Follower Helm",
+    "category": "Helm",
+    "order": 79
+  },
+  {
+    "id": "slave-knight-hood",
+    "name": "Slave Knight Hood",
+    "category": "Helm",
+    "order": 80
+  },
+  {
+    "id": "vilhelms-helm",
+    "name": "Vilhelm's Helm",
+    "category": "Helm",
+    "order": 81
+  },
+  {
+    "id": "millwood-knight-helm",
+    "name": "Millwood Knight Helm",
+    "category": "Helm",
+    "order": 82
+  },
+  {
+    "id": "ordained-hood",
+    "name": "Ordained Hood",
+    "category": "Helm",
+    "order": 83
+  },
+  {
+    "id": "lapps-helm",
+    "name": "Lapp's Helm",
+    "category": "Helm",
+    "order": 84
+  },
+  {
+    "id": "ruin-helm",
+    "name": "Ruin Helm",
+    "category": "Helm",
+    "order": 85
+  },
+  {
+    "id": "ringed-knight-hood",
+    "name": "Ringed Knight Hood",
+    "category": "Helm",
+    "order": 86
+  },
+  {
+    "id": "iron-dragonslayer-helm",
+    "name": "Iron Dragonslayer Helm",
+    "category": "Helm",
+    "order": 87
+  },
+  {
+    "id": "black-witch-hat",
+    "name": "Black Witch Hat",
+    "category": "Helm",
+    "order": 88
+  },
+  {
+    "id": "black-witch-veil",
+    "name": "Black Witch Veil",
+    "category": "Helm",
+    "order": 89
+  },
+  {
+    "id": "desert-pyromancer-hood",
+    "name": "Desert Pyromancer Hood",
+    "category": "Helm",
+    "order": 90
+  },
+  {
+    "id": "shiras-crown",
+    "name": "Shira's Crown",
+    "category": "Helm",
+    "order": 91
+  },
+  {
+    "id": "blindfold-mask",
+    "name": "Blindfold Mask",
+    "category": "Helm",
+    "order": 92
+  },
+  {
+    "id": "white-preacher-head",
+    "name": "White Preacher Head",
+    "category": "Helm",
+    "order": 93
+  },
+  {
+    "id": "hard-leather-armor",
+    "name": "Hard Leather Armor",
+    "category": "Chest",
+    "order": 1
+  },
+  {
+    "id": "brigand-armor",
+    "name": "Brigand Armor",
+    "category": "Chest",
+    "order": 2
+  },
+  {
+    "id": "mirrah-vest",
+    "name": "Mirrah Vest",
+    "category": "Chest",
+    "order": 3
+  },
+  {
+    "id": "chain-armor",
+    "name": "Chain Armor",
+    "category": "Chest",
+    "order": 4
+  },
+  {
+    "id": "northern-armor",
+    "name": "Northern Armor",
+    "category": "Chest",
+    "order": 5
+  },
+  {
+    "id": "mirrah-chain-mail",
+    "name": "Mirrah Chain Mail",
+    "category": "Chest",
+    "order": 6
+  },
+  {
+    "id": "armor-of-the-sun",
+    "name": "Armor of the Sun",
+    "category": "Chest",
+    "order": 7
+  },
+  {
+    "id": "sellsword-armor",
+    "name": "Sellsword Armor",
+    "category": "Chest",
+    "order": 8
+  },
+  {
+    "id": "drang-armor",
+    "name": "Drang Armor",
+    "category": "Chest",
+    "order": 9
+  },
+  {
+    "id": "undead-legion-armor",
+    "name": "Undead Legion Armor",
+    "category": "Chest",
+    "order": 10
+  },
+  {
+    "id": "herald-armor",
+    "name": "Herald Armor",
+    "category": "Chest",
+    "order": 11
+  },
+  {
+    "id": "knight-armor",
+    "name": "Knight Armor",
+    "category": "Chest",
+    "order": 12
+  },
+  {
+    "id": "nameless-knight-armor",
+    "name": "Nameless Knight Armor",
+    "category": "Chest",
+    "order": 13
+  },
+  {
+    "id": "fallen-knight-armor",
+    "name": "Fallen Knight Armor",
+    "category": "Chest",
+    "order": 14
+  },
+  {
+    "id": "elite-knight-armor",
+    "name": "Elite Knight Armor",
+    "category": "Chest",
+    "order": 15
+  },
+  {
+    "id": "alva-armor",
+    "name": "Alva Armor",
+    "category": "Chest",
+    "order": 16
+  },
+  {
+    "id": "drakeblood-armor",
+    "name": "Drakeblood Armor",
+    "category": "Chest",
+    "order": 17
+  },
+  {
+    "id": "faraam-armor",
+    "name": "Faraam Armor",
+    "category": "Chest",
+    "order": 18
+  },
+  {
+    "id": "sunset-armor",
+    "name": "Sunset Armor",
+    "category": "Chest",
+    "order": 19
+  },
+  {
+    "id": "sunless-armor",
+    "name": "Sunless Armor",
+    "category": "Chest",
+    "order": 20
+  },
+  {
+    "id": "brass-armor",
+    "name": "Brass Armor",
+    "category": "Chest",
+    "order": 21
+  },
+  {
+    "id": "embraced-armor-of-favor",
+    "name": "Embraced Armor of Favor",
+    "category": "Chest",
+    "order": 22
+  },
+  {
+    "id": "eastern-armor",
+    "name": "Eastern Armor",
+    "category": "Chest",
+    "order": 23
+  },
+  {
+    "id": "armor-of-thorns",
+    "name": "Armor of Thorns",
+    "category": "Chest",
+    "order": 24
+  },
+  {
+    "id": "catarina-armor",
+    "name": "Catarina Armor",
+    "category": "Chest",
+    "order": 25
+  },
+  {
+    "id": "mornes-armor",
+    "name": "Morne's Armor",
+    "category": "Chest",
+    "order": 26
+  },
+  {
+    "id": "lothric-knight-armor",
+    "name": "Lothric Knight Armor",
+    "category": "Chest",
+    "order": 27
+  },
+  {
+    "id": "cathedral-knight-armor",
+    "name": "Cathedral Knight Armor",
+    "category": "Chest",
+    "order": 28
+  },
+  {
+    "id": "winged-knight-armor",
+    "name": "Winged Knight Armor",
+    "category": "Chest",
+    "order": 29
+  },
+  {
+    "id": "outrider-knight-armor",
+    "name": "Outrider Knight Armor",
+    "category": "Chest",
+    "order": 30
+  },
+  {
+    "id": "pontiff-knight-armor",
+    "name": "Pontiff Knight Armor",
+    "category": "Chest",
+    "order": 31
+  },
+  {
+    "id": "fire-witch-armor",
+    "name": "Fire Witch Armor",
+    "category": "Chest",
+    "order": 32
+  },
+  {
+    "id": "dancers-armor",
+    "name": "Dancer's Armor",
+    "category": "Chest",
+    "order": 33
+  },
+  {
+    "id": "dark-armor",
+    "name": "Dark Armor",
+    "category": "Chest",
+    "order": 34
+  },
+  {
+    "id": "black-knight-armor",
+    "name": "Black Knight Armor",
+    "category": "Chest",
+    "order": 35
+  },
+  {
+    "id": "silver-knight-armor",
+    "name": "Silver Knight Armor",
+    "category": "Chest",
+    "order": 36
+  },
+  {
+    "id": "dragonslayer-armor",
+    "name": "Dragonslayer Armor",
+    "category": "Chest",
+    "order": 37
+  },
+  {
+    "id": "wolf-knight-armor",
+    "name": "Wolf Knight Armor",
+    "category": "Chest",
+    "order": 38
+  },
+  {
+    "id": "smoughs-armor",
+    "name": "Smough's Armor",
+    "category": "Chest",
+    "order": 39
+  },
+  {
+    "id": "lorians-armor",
+    "name": "Lorian's Armor",
+    "category": "Chest",
+    "order": 40
+  },
+  {
+    "id": "dragonscale-armor",
+    "name": "Dragonscale Armor",
+    "category": "Chest",
+    "order": 41
+  },
+  {
+    "id": "firelink-armor",
+    "name": "Firelink Armor",
+    "category": "Chest",
+    "order": 42
+  },
+  {
+    "id": "black-iron-armor",
+    "name": "Black Iron Armor",
+    "category": "Chest",
+    "order": 43
+  },
+  {
+    "id": "executioner-armor",
+    "name": "Executioner Armor",
+    "category": "Chest",
+    "order": 44
+  },
+  {
+    "id": "exile-armor",
+    "name": "Exile Armor",
+    "category": "Chest",
+    "order": 45
+  },
+  {
+    "id": "gundyrs-armor",
+    "name": "Gundyr's Armor",
+    "category": "Chest",
+    "order": 46
+  },
+  {
+    "id": "havels-armor",
+    "name": "Havel's Armor",
+    "category": "Chest",
+    "order": 47
+  },
+  {
+    "id": "assassin-armor",
+    "name": "Assassin Armor",
+    "category": "Chest",
+    "order": 48
+  },
+  {
+    "id": "black-hand-armor",
+    "name": "Black Hand Armor",
+    "category": "Chest",
+    "order": 49
+  },
+  {
+    "id": "black-leather-armor",
+    "name": "Black Leather Armor",
+    "category": "Chest",
+    "order": 50
+  },
+  {
+    "id": "shadow-garb",
+    "name": "Shadow Garb",
+    "category": "Chest",
+    "order": 51
+  },
+  {
+    "id": "leonhards-garb",
+    "name": "Leonhard's Garb",
+    "category": "Chest",
+    "order": 52
+  },
+  {
+    "id": "pale-shade-robe",
+    "name": "Pale Shade Robe",
+    "category": "Chest",
+    "order": 53
+  },
+  {
+    "id": "black-dress",
+    "name": "Black Dress",
+    "category": "Chest",
+    "order": 54
+  },
+  {
+    "id": "painting-guardian-gown",
+    "name": "Painting Guardian Gown",
+    "category": "Chest",
+    "order": 55
+  },
+  {
+    "id": "sorcerer-robe",
+    "name": "Sorcerer Robe",
+    "category": "Chest",
+    "order": 56
+  },
+  {
+    "id": "clandestine-coat",
+    "name": "Clandestine Coat",
+    "category": "Chest",
+    "order": 57
+  },
+  {
+    "id": "old-sorcerer-coat",
+    "name": "Old Sorcerer Coat",
+    "category": "Chest",
+    "order": 58
+  },
+  {
+    "id": "court-sorcerer-robe",
+    "name": "Court Sorcerer Robe",
+    "category": "Chest",
+    "order": 59
+  },
+  {
+    "id": "karlas-coat",
+    "name": "Karla's Coat",
+    "category": "Chest",
+    "order": 60
+  },
+  {
+    "id": "antiquated-dress",
+    "name": "Antiquated Dress",
+    "category": "Chest",
+    "order": 61
+  },
+  {
+    "id": "xanthous-overcoat",
+    "name": "Xanthous Overcoat",
+    "category": "Chest",
+    "order": 62
+  },
+  {
+    "id": "scholars-robe",
+    "name": "Scholar's Robe",
+    "category": "Chest",
+    "order": 63
+  },
+  {
+    "id": "pyromancer-garb",
+    "name": "Pyromancer Garb",
+    "category": "Chest",
+    "order": 64
+  },
+  {
+    "id": "cornyxs-garb",
+    "name": "Cornyx's Garb",
+    "category": "Chest",
+    "order": 65
+  },
+  {
+    "id": "conjurator-robe",
+    "name": "Conjurator Robe",
+    "category": "Chest",
+    "order": 66
+  },
+  {
+    "id": "cleric-blue-robe",
+    "name": "Cleric Blue Robe",
+    "category": "Chest",
+    "order": 67
+  },
+  {
+    "id": "maiden-robe",
+    "name": "Maiden Robe",
+    "category": "Chest",
+    "order": 68
+  },
+  {
+    "id": "evangelist-robe",
+    "name": "Evangelist Robe",
+    "category": "Chest",
+    "order": 69
+  },
+  {
+    "id": "deacon-robe",
+    "name": "Deacon Robe",
+    "category": "Chest",
+    "order": 70
+  },
+  {
+    "id": "archdeacon-holy-garb",
+    "name": "Archdeacon Holy Garb",
+    "category": "Chest",
+    "order": 71
+  },
+  {
+    "id": "jailer-robe",
+    "name": "Jailer Robe",
+    "category": "Chest",
+    "order": 72
+  },
+  {
+    "id": "robe-of-prayer",
+    "name": "Robe of Prayer",
+    "category": "Chest",
+    "order": 73
+  },
+  {
+    "id": "fire-keeper-robe",
+    "name": "Fire Keeper Robe",
+    "category": "Chest",
+    "order": 74
+  },
+  {
+    "id": "masters-attire",
+    "name": "Master's Attire",
+    "category": "Chest",
+    "order": 75
+  },
+  {
+    "id": "worker-garb",
+    "name": "Worker Garb",
+    "category": "Chest",
+    "order": 76
+  },
+  {
+    "id": "grave-warden-robe",
+    "name": "Grave Warden Robe",
+    "category": "Chest",
+    "order": 77
+  },
+  {
+    "id": "deserter-armor",
+    "name": "Deserter Armor",
+    "category": "Chest",
+    "order": 78
+  },
+  {
+    "id": "leather-armor",
+    "name": "Leather Armor",
+    "category": "Chest",
+    "order": 79
+  },
+  {
+    "id": "follower-armor",
+    "name": "Follower Armor",
+    "category": "Chest",
+    "order": 80
+  },
+  {
+    "id": "slave-knight-armor",
+    "name": "Slave Knight Armor",
+    "category": "Chest",
+    "order": 81
+  },
+  {
+    "id": "vilhelms-armor",
+    "name": "Vilhelm's Armor",
+    "category": "Chest",
+    "order": 82
+  },
+  {
+    "id": "millwood-knight-armor",
+    "name": "Millwood Knight Armor",
+    "category": "Chest",
+    "order": 83
+  },
+  {
+    "id": "ordained-dress",
+    "name": "Ordained Dress",
+    "category": "Chest",
+    "order": 84
+  },
+  {
+    "id": "shiras-armor",
+    "name": "Shira's Armor",
+    "category": "Chest",
+    "order": 85
+  },
+  {
+    "id": "lapps-armor",
+    "name": "Lapp's Armor",
+    "category": "Chest",
+    "order": 86
+  },
+  {
+    "id": "harald-legion-armor",
+    "name": "Harald Legion Armor",
+    "category": "Chest",
+    "order": 87
+  },
+  {
+    "id": "ruin-armor",
+    "name": "Ruin Armor",
+    "category": "Chest",
+    "order": 88
+  },
+  {
+    "id": "ringed-knight-armor",
+    "name": "Ringed Knight Armor",
+    "category": "Chest",
+    "order": 89
+  },
+  {
+    "id": "iron-dragonslayer-armor",
+    "name": "Iron Dragonslayer Armor",
+    "category": "Chest",
+    "order": 90
+  },
+  {
+    "id": "antiquated-plain-garb",
+    "name": "Antiquated Plain Garb",
+    "category": "Chest",
+    "order": 91
+  },
+  {
+    "id": "black-witch-garb",
+    "name": "Black Witch Garb",
+    "category": "Chest",
+    "order": 92
+  },
+  {
+    "id": "desert-pyromancer-garb",
+    "name": "Desert Pyromancer Garb",
+    "category": "Chest",
+    "order": 93
+  },
+  {
+    "id": "hard-leather-gauntlets",
+    "name": "Hard Leather Gauntlets",
+    "category": "Gauntlets",
+    "order": 1
+  },
+  {
+    "id": "brigand-gauntlets",
+    "name": "Brigand Gauntlets",
+    "category": "Gauntlets",
+    "order": 2
+  },
+  {
+    "id": "mirrah-gloves",
+    "name": "Mirrah Gloves",
+    "category": "Gauntlets",
+    "order": 3
+  },
+  {
+    "id": "leather-gauntlets",
+    "name": "Leather Gauntlets",
+    "category": "Gauntlets",
+    "order": 4
+  },
+  {
+    "id": "northern-gloves",
+    "name": "Northern Gloves",
+    "category": "Gauntlets",
+    "order": 5
+  },
+  {
+    "id": "mirrah-chain-gloves",
+    "name": "Mirrah Chain Gloves",
+    "category": "Gauntlets",
+    "order": 6
+  },
+  {
+    "id": "iron-bracelets",
+    "name": "Iron Bracelets",
+    "category": "Gauntlets",
+    "order": 7
+  },
+  {
+    "id": "sellsword-gauntlet",
+    "name": "Sellsword Gauntlet",
+    "category": "Gauntlets",
+    "order": 8
+  },
+  {
+    "id": "drang-gauntlets",
+    "name": "Drang Gauntlets",
+    "category": "Gauntlets",
+    "order": 9
+  },
+  {
+    "id": "undead-legion-gauntlet",
+    "name": "Undead Legion Gauntlet",
+    "category": "Gauntlets",
+    "order": 10
+  },
+  {
+    "id": "herald-gloves",
+    "name": "Herald Gloves",
+    "category": "Gauntlets",
+    "order": 11
+  },
+  {
+    "id": "knight-gauntlets",
+    "name": "Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 12
+  },
+  {
+    "id": "nameless-knight-gauntlets",
+    "name": "Nameless Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 13
+  },
+  {
+    "id": "fallen-knight-gauntlets",
+    "name": "Fallen Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 14
+  },
+  {
+    "id": "elite-knight-gauntlets",
+    "name": "Elite Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 15
+  },
+  {
+    "id": "alva-gauntlets",
+    "name": "Alva Gauntlets",
+    "category": "Gauntlets",
+    "order": 16
+  },
+  {
+    "id": "drakeblood-gauntlets",
+    "name": "Drakeblood Gauntlets",
+    "category": "Gauntlets",
+    "order": 17
+  },
+  {
+    "id": "faraam-gauntlets",
+    "name": "Faraam Gauntlets",
+    "category": "Gauntlets",
+    "order": 18
+  },
+  {
+    "id": "sunset-gauntlets",
+    "name": "Sunset Gauntlets",
+    "category": "Gauntlets",
+    "order": 19
+  },
+  {
+    "id": "sunless-gauntlets",
+    "name": "Sunless Gauntlets",
+    "category": "Gauntlets",
+    "order": 20
+  },
+  {
+    "id": "brass-gauntlets",
+    "name": "Brass Gauntlets",
+    "category": "Gauntlets",
+    "order": 21
+  },
+  {
+    "id": "gauntlets-of-favor",
+    "name": "Gauntlets of Favor",
+    "category": "Gauntlets",
+    "order": 22
+  },
+  {
+    "id": "eastern-gauntlets",
+    "name": "Eastern Gauntlets",
+    "category": "Gauntlets",
+    "order": 23
+  },
+  {
+    "id": "gauntlets-of-thorns",
+    "name": "Gauntlets of Thorns",
+    "category": "Gauntlets",
+    "order": 24
+  },
+  {
+    "id": "catarina-gauntlets",
+    "name": "Catarina Gauntlets",
+    "category": "Gauntlets",
+    "order": 25
+  },
+  {
+    "id": "mornes-gauntlets",
+    "name": "Morne's Gauntlets",
+    "category": "Gauntlets",
+    "order": 26
+  },
+  {
+    "id": "lothric-knight-gauntlets",
+    "name": "Lothric Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 27
+  },
+  {
+    "id": "cathedral-knight-gauntlets",
+    "name": "Cathedral Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 28
+  },
+  {
+    "id": "winged-knight-gauntlets",
+    "name": "Winged Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 29
+  },
+  {
+    "id": "outrider-knight-gauntlets",
+    "name": "Outrider Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 30
+  },
+  {
+    "id": "pontiff-knight-gauntlets",
+    "name": "Pontiff Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 31
+  },
+  {
+    "id": "fire-witch-gauntlets",
+    "name": "Fire Witch Gauntlets",
+    "category": "Gauntlets",
+    "order": 32
+  },
+  {
+    "id": "dancers-gauntlets",
+    "name": "Dancer's Gauntlets",
+    "category": "Gauntlets",
+    "order": 33
+  },
+  {
+    "id": "dark-gauntlets",
+    "name": "Dark Gauntlets",
+    "category": "Gauntlets",
+    "order": 34
+  },
+  {
+    "id": "black-knight-gauntlets",
+    "name": "Black Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 35
+  },
+  {
+    "id": "silver-knight-gauntlets",
+    "name": "Silver Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 36
+  },
+  {
+    "id": "dragonslayer-gauntlets",
+    "name": "Dragonslayer Gauntlets",
+    "category": "Gauntlets",
+    "order": 37
+  },
+  {
+    "id": "wolf-knight-gauntlets",
+    "name": "Wolf Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 38
+  },
+  {
+    "id": "smoughs-gauntlets",
+    "name": "Smough's Gauntlets",
+    "category": "Gauntlets",
+    "order": 39
+  },
+  {
+    "id": "lorians-gauntlets",
+    "name": "Lorian's Gauntlets",
+    "category": "Gauntlets",
+    "order": 40
+  },
+  {
+    "id": "golden-bracelets",
+    "name": "Golden Bracelets",
+    "category": "Gauntlets",
+    "order": 41
+  },
+  {
+    "id": "firelink-gauntlets",
+    "name": "Firelink Gauntlets",
+    "category": "Gauntlets",
+    "order": 42
+  },
+  {
+    "id": "black-iron-gauntlets",
+    "name": "Black Iron Gauntlets",
+    "category": "Gauntlets",
+    "order": 43
+  },
+  {
+    "id": "executioner-gauntlets",
+    "name": "Executioner Gauntlets",
+    "category": "Gauntlets",
+    "order": 44
+  },
+  {
+    "id": "exile-gauntlets",
+    "name": "Exile Gauntlets",
+    "category": "Gauntlets",
+    "order": 45
+  },
+  {
+    "id": "gundyrs-gauntlets",
+    "name": "Gundyr's Gauntlets",
+    "category": "Gauntlets",
+    "order": 46
+  },
+  {
+    "id": "havels-gauntlets",
+    "name": "Havel's Gauntlets",
+    "category": "Gauntlets",
+    "order": 47
+  },
+  {
+    "id": "assassin-gloves",
+    "name": "Assassin Gloves",
+    "category": "Gauntlets",
+    "order": 48
+  },
+  {
+    "id": "black-leather-gloves",
+    "name": "Black Leather Gloves",
+    "category": "Gauntlets",
+    "order": 49
+  },
+  {
+    "id": "shadow-gauntlets",
+    "name": "Shadow Gauntlets",
+    "category": "Gauntlets",
+    "order": 50
+  },
+  {
+    "id": "leonhards-gauntlets",
+    "name": "Leonhard's Gauntlets",
+    "category": "Gauntlets",
+    "order": 51
+  },
+  {
+    "id": "pale-shade-gloves",
+    "name": "Pale Shade Gloves",
+    "category": "Gauntlets",
+    "order": 52
+  },
+  {
+    "id": "black-gauntlets",
+    "name": "Black Gauntlets",
+    "category": "Gauntlets",
+    "order": 53
+  },
+  {
+    "id": "painting-guardian-gloves",
+    "name": "Painting Guardian Gloves",
+    "category": "Gauntlets",
+    "order": 54
+  },
+  {
+    "id": "sorcerer-gloves",
+    "name": "Sorcerer Gloves",
+    "category": "Gauntlets",
+    "order": 55
+  },
+  {
+    "id": "old-sorcerer-gauntlets",
+    "name": "Old Sorcerer Gauntlets",
+    "category": "Gauntlets",
+    "order": 56
+  },
+  {
+    "id": "court-sorcerer-gloves",
+    "name": "Court Sorcerer Gloves",
+    "category": "Gauntlets",
+    "order": 57
+  },
+  {
+    "id": "karlas-gloves",
+    "name": "Karla's Gloves",
+    "category": "Gauntlets",
+    "order": 58
+  },
+  {
+    "id": "antiquated-gloves",
+    "name": "Antiquated Gloves",
+    "category": "Gauntlets",
+    "order": 59
+  },
+  {
+    "id": "xanthous-gloves",
+    "name": "Xanthous Gloves",
+    "category": "Gauntlets",
+    "order": 60
+  },
+  {
+    "id": "pyromancer-wrap",
+    "name": "Pyromancer Wrap",
+    "category": "Gauntlets",
+    "order": 61
+  },
+  {
+    "id": "cornyxs-wrap",
+    "name": "Cornyx's Wrap",
+    "category": "Gauntlets",
+    "order": 62
+  },
+  {
+    "id": "conjurator-manchettes",
+    "name": "Conjurator Manchettes",
+    "category": "Gauntlets",
+    "order": 63
+  },
+  {
+    "id": "cleric-gloves",
+    "name": "Cleric Gloves",
+    "category": "Gauntlets",
+    "order": 64
+  },
+  {
+    "id": "maiden-gloves",
+    "name": "Maiden Gloves",
+    "category": "Gauntlets",
+    "order": 65
+  },
+  {
+    "id": "evangelist-gloves",
+    "name": "Evangelist Gloves",
+    "category": "Gauntlets",
+    "order": 66
+  },
+  {
+    "id": "jailer-gloves",
+    "name": "Jailer Gloves",
+    "category": "Gauntlets",
+    "order": 67
+  },
+  {
+    "id": "fire-keeper-gloves",
+    "name": "Fire Keeper Gloves",
+    "category": "Gauntlets",
+    "order": 68
+  },
+  {
+    "id": "masters-gloves",
+    "name": "Master's Gloves",
+    "category": "Gauntlets",
+    "order": 69
+  },
+  {
+    "id": "worker-gloves",
+    "name": "Worker Gloves",
+    "category": "Gauntlets",
+    "order": 70
+  },
+  {
+    "id": "grave-warden-wrap",
+    "name": "Grave Warden Wrap",
+    "category": "Gauntlets",
+    "order": 71
+  },
+  {
+    "id": "leather-gloves",
+    "name": "Leather Gloves",
+    "category": "Gauntlets",
+    "order": 72
+  },
+  {
+    "id": "follower-gloves",
+    "name": "Follower Gloves",
+    "category": "Gauntlets",
+    "order": 73
+  },
+  {
+    "id": "slave-knight-gauntlets",
+    "name": "Slave Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 74
+  },
+  {
+    "id": "vilhelms-gauntlets",
+    "name": "Vilhelm's Gauntlets",
+    "category": "Gauntlets",
+    "order": 75
+  },
+  {
+    "id": "millwood-knight-gauntlets",
+    "name": "Millwood Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 76
+  },
+  {
+    "id": "shiras-gloves",
+    "name": "Shira's Gloves",
+    "category": "Gauntlets",
+    "order": 77
+  },
+  {
+    "id": "lapps-gauntlets",
+    "name": "Lapp's Gauntlets",
+    "category": "Gauntlets",
+    "order": 78
+  },
+  {
+    "id": "harald-legion-gauntlets",
+    "name": "Harald Legion Gauntlets",
+    "category": "Gauntlets",
+    "order": 79
+  },
+  {
+    "id": "ruin-gauntlets",
+    "name": "Ruin Gauntlets",
+    "category": "Gauntlets",
+    "order": 80
+  },
+  {
+    "id": "ringed-knight-gauntlets",
+    "name": "Ringed Knight Gauntlets",
+    "category": "Gauntlets",
+    "order": 81
+  },
+  {
+    "id": "iron-dragonslayer-gauntlets",
+    "name": "Iron Dragonslayer Gauntlets",
+    "category": "Gauntlets",
+    "order": 82
+  },
+  {
+    "id": "violet-wrappings",
+    "name": "Violet Wrappings",
+    "category": "Gauntlets",
+    "order": 83
+  },
+  {
+    "id": "black-witch-wrappings",
+    "name": "Black Witch Wrappings",
+    "category": "Gauntlets",
+    "order": 84
+  },
+  {
+    "id": "desert-pyromancer-gloves",
+    "name": "Desert Pyromancer Gloves",
+    "category": "Gauntlets",
+    "order": 85
+  },
+  {
+    "id": "hard-leather-boots",
+    "name": "Hard Leather Boots",
+    "category": "Leggings",
+    "order": 1
+  },
+  {
+    "id": "brigand-trousers",
+    "name": "Brigand Trousers",
+    "category": "Leggings",
+    "order": 2
+  },
+  {
+    "id": "mirrah-trousers",
+    "name": "Mirrah Trousers",
+    "category": "Leggings",
+    "order": 3
+  },
+  {
+    "id": "chain-leggings",
+    "name": "Chain Leggings",
+    "category": "Leggings",
+    "order": 4
+  },
+  {
+    "id": "northern-trousers",
+    "name": "Northern Trousers",
+    "category": "Leggings",
+    "order": 5
+  },
+  {
+    "id": "mirrah-chain-leggings",
+    "name": "Mirrah Chain Leggings",
+    "category": "Leggings",
+    "order": 6
+  },
+  {
+    "id": "iron-leggings",
+    "name": "Iron Leggings",
+    "category": "Leggings",
+    "order": 7
+  },
+  {
+    "id": "sellsword-trousers",
+    "name": "Sellsword Trousers",
+    "category": "Leggings",
+    "order": 8
+  },
+  {
+    "id": "drang-shoes",
+    "name": "Drang Shoes",
+    "category": "Leggings",
+    "order": 9
+  },
+  {
+    "id": "undead-legion-leggings",
+    "name": "Undead Legion Leggings",
+    "category": "Leggings",
+    "order": 10
+  },
+  {
+    "id": "herald-trousers",
+    "name": "Herald Trousers",
+    "category": "Leggings",
+    "order": 11
+  },
+  {
+    "id": "knight-leggings",
+    "name": "Knight Leggings",
+    "category": "Leggings",
+    "order": 12
+  },
+  {
+    "id": "nameless-knight-leggings",
+    "name": "Nameless Knight Leggings",
+    "category": "Leggings",
+    "order": 13
+  },
+  {
+    "id": "fallen-knight-trousers",
+    "name": "Fallen Knight Trousers",
+    "category": "Leggings",
+    "order": 14
+  },
+  {
+    "id": "elite-knight-leggings",
+    "name": "Elite Knight Leggings",
+    "category": "Leggings",
+    "order": 15
+  },
+  {
+    "id": "alva-leggings",
+    "name": "Alva Leggings",
+    "category": "Leggings",
+    "order": 16
+  },
+  {
+    "id": "drakeblood-leggings",
+    "name": "Drakeblood Leggings",
+    "category": "Leggings",
+    "order": 17
+  },
+  {
+    "id": "faraam-boots",
+    "name": "Faraam Boots",
+    "category": "Leggings",
+    "order": 18
+  },
+  {
+    "id": "sunset-leggings",
+    "name": "Sunset Leggings",
+    "category": "Leggings",
+    "order": 19
+  },
+  {
+    "id": "sunless-leggings",
+    "name": "Sunless Leggings",
+    "category": "Leggings",
+    "order": 20
+  },
+  {
+    "id": "brass-leggings",
+    "name": "Brass Leggings",
+    "category": "Leggings",
+    "order": 21
+  },
+  {
+    "id": "leggings-of-favor",
+    "name": "Leggings of Favor",
+    "category": "Leggings",
+    "order": 22
+  },
+  {
+    "id": "eastern-leggings",
+    "name": "Eastern Leggings",
+    "category": "Leggings",
+    "order": 23
+  },
+  {
+    "id": "leggings-of-thorns",
+    "name": "Leggings of Thorns",
+    "category": "Leggings",
+    "order": 24
+  },
+  {
+    "id": "catarina-leggings",
+    "name": "Catarina Leggings",
+    "category": "Leggings",
+    "order": 25
+  },
+  {
+    "id": "mornes-leggings",
+    "name": "Morne's Leggings",
+    "category": "Leggings",
+    "order": 26
+  },
+  {
+    "id": "lothric-knight-leggings",
+    "name": "Lothric Knight Leggings",
+    "category": "Leggings",
+    "order": 27
+  },
+  {
+    "id": "cathedral-knight-leggings",
+    "name": "Cathedral Knight Leggings",
+    "category": "Leggings",
+    "order": 28
+  },
+  {
+    "id": "winged-knight-leggings",
+    "name": "Winged Knight Leggings",
+    "category": "Leggings",
+    "order": 29
+  },
+  {
+    "id": "outrider-knight-leggings",
+    "name": "Outrider Knight Leggings",
+    "category": "Leggings",
+    "order": 30
+  },
+  {
+    "id": "pontiff-knight-leggings",
+    "name": "Pontiff Knight Leggings",
+    "category": "Leggings",
+    "order": 31
+  },
+  {
+    "id": "fire-witch-leggings",
+    "name": "Fire Witch Leggings",
+    "category": "Leggings",
+    "order": 32
+  },
+  {
+    "id": "dancers-leggings",
+    "name": "Dancer's Leggings",
+    "category": "Leggings",
+    "order": 33
+  },
+  {
+    "id": "dark-leggings",
+    "name": "Dark Leggings",
+    "category": "Leggings",
+    "order": 34
+  },
+  {
+    "id": "black-knight-leggings",
+    "name": "Black Knight Leggings",
+    "category": "Leggings",
+    "order": 35
+  },
+  {
+    "id": "silver-knight-leggings",
+    "name": "Silver Knight Leggings",
+    "category": "Leggings",
+    "order": 36
+  },
+  {
+    "id": "dragonslayer-leggings",
+    "name": "Dragonslayer Leggings",
+    "category": "Leggings",
+    "order": 37
+  },
+  {
+    "id": "wolf-knight-leggings",
+    "name": "Wolf Knight Leggings",
+    "category": "Leggings",
+    "order": 38
+  },
+  {
+    "id": "smoughs-leggings",
+    "name": "Smough's Leggings",
+    "category": "Leggings",
+    "order": 39
+  },
+  {
+    "id": "lorians-leggings",
+    "name": "Lorian's Leggings",
+    "category": "Leggings",
+    "order": 40
+  },
+  {
+    "id": "dragonscale-waistcloth",
+    "name": "Dragonscale Waistcloth",
+    "category": "Leggings",
+    "order": 41
+  },
+  {
+    "id": "firelink-leggings",
+    "name": "Firelink Leggings",
+    "category": "Leggings",
+    "order": 42
+  },
+  {
+    "id": "black-iron-leggings",
+    "name": "Black Iron Leggings",
+    "category": "Leggings",
+    "order": 43
+  },
+  {
+    "id": "executioner-leggings",
+    "name": "Executioner Leggings",
+    "category": "Leggings",
+    "order": 44
+  },
+  {
+    "id": "exile-leggings",
+    "name": "Exile Leggings",
+    "category": "Leggings",
+    "order": 45
+  },
+  {
+    "id": "gundyrs-leggings",
+    "name": "Gundyr's Leggings",
+    "category": "Leggings",
+    "order": 46
+  },
+  {
+    "id": "havels-leggings",
+    "name": "Havel's Leggings",
+    "category": "Leggings",
+    "order": 47
+  },
+  {
+    "id": "assassin-trousers",
+    "name": "Assassin Trousers",
+    "category": "Leggings",
+    "order": 48
+  },
+  {
+    "id": "black-leather-boots",
+    "name": "Black Leather Boots",
+    "category": "Leggings",
+    "order": 49
+  },
+  {
+    "id": "shadow-leggings",
+    "name": "Shadow Leggings",
+    "category": "Leggings",
+    "order": 50
+  },
+  {
+    "id": "leonhards-trousers",
+    "name": "Leonhard's Trousers",
+    "category": "Leggings",
+    "order": 51
+  },
+  {
+    "id": "pale-shade-trousers",
+    "name": "Pale Shade Trousers",
+    "category": "Leggings",
+    "order": 52
+  },
+  {
+    "id": "black-leggings",
+    "name": "Black Leggings",
+    "category": "Leggings",
+    "order": 53
+  },
+  {
+    "id": "painting-guardian-waistcloth",
+    "name": "Painting Guardian Waistcloth",
+    "category": "Leggings",
+    "order": 54
+  },
+  {
+    "id": "sorcerer-trousers",
+    "name": "Sorcerer Trousers",
+    "category": "Leggings",
+    "order": 55
+  },
+  {
+    "id": "old-sorcerer-boots",
+    "name": "Old Sorcerer Boots",
+    "category": "Leggings",
+    "order": 56
+  },
+  {
+    "id": "court-sorcerer-trousers",
+    "name": "Court Sorcerer Trousers",
+    "category": "Leggings",
+    "order": 57
+  },
+  {
+    "id": "karlas-trousers",
+    "name": "Karla's Trousers",
+    "category": "Leggings",
+    "order": 58
+  },
+  {
+    "id": "antiquated-skirt",
+    "name": "Antiquated Skirt",
+    "category": "Leggings",
+    "order": 59
+  },
+  {
+    "id": "xanthous-trousers",
+    "name": "Xanthous Trousers",
+    "category": "Leggings",
+    "order": 60
+  },
+  {
+    "id": "pyromancer-trousers",
+    "name": "Pyromancer Trousers",
+    "category": "Leggings",
+    "order": 61
+  },
+  {
+    "id": "cornyxs-skirt",
+    "name": "Cornyx's Skirt",
+    "category": "Leggings",
+    "order": 62
+  },
+  {
+    "id": "conjurator-boots",
+    "name": "Conjurator Boots",
+    "category": "Leggings",
+    "order": 63
+  },
+  {
+    "id": "cleric-trousers",
+    "name": "Cleric Trousers",
+    "category": "Leggings",
+    "order": 64
+  },
+  {
+    "id": "maiden-skirt",
+    "name": "Maiden Skirt",
+    "category": "Leggings",
+    "order": 65
+  },
+  {
+    "id": "evangelist-trousers",
+    "name": "Evangelist Trousers",
+    "category": "Leggings",
+    "order": 66
+  },
+  {
+    "id": "deacon-skirt",
+    "name": "Deacon Skirt",
+    "category": "Leggings",
+    "order": 67
+  },
+  {
+    "id": "archdeacon-skirt",
+    "name": "Archdeacon Skirt",
+    "category": "Leggings",
+    "order": 68
+  },
+  {
+    "id": "jailer-trousers",
+    "name": "Jailer Trousers",
+    "category": "Leggings",
+    "order": 69
+  },
+  {
+    "id": "skirt-of-prayer",
+    "name": "Skirt of Prayer",
+    "category": "Leggings",
+    "order": 70
+  },
+  {
+    "id": "fire-keeper-skirt",
+    "name": "Fire Keeper Skirt",
+    "category": "Leggings",
+    "order": 71
+  },
+  {
+    "id": "loincloth",
+    "name": "Loincloth",
+    "category": "Leggings",
+    "order": 72
+  },
+  {
+    "id": "worker-trousers",
+    "name": "Worker Trousers",
+    "category": "Leggings",
+    "order": 73
+  },
+  {
+    "id": "grave-warden-skirt",
+    "name": "Grave Warden Skirt",
+    "category": "Leggings",
+    "order": 74
+  },
+  {
+    "id": "deserter-trousers",
+    "name": "Deserter Trousers",
+    "category": "Leggings",
+    "order": 75
+  },
+  {
+    "id": "leather-boots",
+    "name": "Leather Boots",
+    "category": "Leggings",
+    "order": 76
+  },
+  {
+    "id": "follower-boots",
+    "name": "Follower Boots",
+    "category": "Leggings",
+    "order": 77
+  },
+  {
+    "id": "slave-knight-leggings",
+    "name": "Slave Knight Leggings",
+    "category": "Leggings",
+    "order": 78
+  },
+  {
+    "id": "vilhelms-leggings",
+    "name": "Vilhelm's Leggings",
+    "category": "Leggings",
+    "order": 79
+  },
+  {
+    "id": "millwood-knight-leggings",
+    "name": "Millwood Knight Leggings",
+    "category": "Leggings",
+    "order": 80
+  },
+  {
+    "id": "ordained-trousers",
+    "name": "Ordained Trousers",
+    "category": "Leggings",
+    "order": 81
+  },
+  {
+    "id": "shiras-trousers",
+    "name": "Shira's Trousers",
+    "category": "Leggings",
+    "order": 82
+  },
+  {
+    "id": "lapps-leggings",
+    "name": "Lapp's Leggings",
+    "category": "Leggings",
+    "order": 83
+  },
+  {
+    "id": "harald-legion-leggings",
+    "name": "Harald Legion Leggings",
+    "category": "Leggings",
+    "order": 84
+  },
+  {
+    "id": "ruin-leggings",
+    "name": "Ruin Leggings",
+    "category": "Leggings",
+    "order": 85
+  },
+  {
+    "id": "ringed-knight-leggings",
+    "name": "Ringed Knight Leggings",
+    "category": "Leggings",
+    "order": 86
+  },
+  {
+    "id": "iron-dragonslayer-leggings",
+    "name": "Iron Dragonslayer Leggings",
+    "category": "Leggings",
+    "order": 87
+  },
+  {
+    "id": "black-witch-trousers",
+    "name": "Black Witch Trousers",
+    "category": "Leggings",
+    "order": 88
+  },
+  {
+    "id": "desert-pyromancer-skirt",
+    "name": "Desert Pyromancer Skirt",
+    "category": "Leggings",
+    "order": 89
+  },
+  {
+    "id": "loincloth-trc",
+    "name": "Loincloth (The Ringed City)",
+    "category": "Leggings",
+    "order": 90
+  }
 ]

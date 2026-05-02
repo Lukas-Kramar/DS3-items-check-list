@@ -1,5 +1,241 @@
 [
   {
+    "id": "soul-arrow",
+    "name": "Soul Arrow",
+    "category": "Sorcery",
+    "order": 1
+  },
+  {
+    "id": "great-soul-arrow",
+    "name": "Great Soul Arrow",
+    "category": "Sorcery",
+    "order": 2
+  },
+  {
+    "id": "heavy-soul-arrow",
+    "name": "Heavy Soul Arrow",
+    "category": "Sorcery",
+    "order": 3
+  },
+  {
+    "id": "great-heavy-soul-arrow",
+    "name": "Great Heavy Soul Arrow",
+    "category": "Sorcery",
+    "order": 4
+  },
+  {
+    "id": "farron-dart",
+    "name": "Farron Dart",
+    "category": "Sorcery",
+    "order": 5
+  },
+  {
+    "id": "great-farron-dart",
+    "name": "Great Farron Dart",
+    "category": "Sorcery",
+    "order": 6
+  },
+  {
+    "id": "farron-hail",
+    "name": "Farron Hail",
+    "category": "Sorcery",
+    "order": 7
+  },
+  {
+    "id": "homing-soulmass",
+    "name": "Homing Soulmass",
+    "category": "Sorcery",
+    "order": 8
+  },
+  {
+    "id": "homing-crystal-soulmass",
+    "name": "Homing Crystal Soulmass",
+    "category": "Sorcery",
+    "order": 9
+  },
+  {
+    "id": "crystal-hail",
+    "name": "Crystal Hail",
+    "category": "Sorcery",
+    "order": 10
+  },
+  {
+    "id": "soul-spear",
+    "name": "Soul Spear",
+    "category": "Sorcery",
+    "order": 11
+  },
+  {
+    "id": "crystal-soul-spear",
+    "name": "Crystal Soul Spear",
+    "category": "Sorcery",
+    "order": 12
+  },
+  {
+    "id": "white-dragon-breath",
+    "name": "White Dragon Breath",
+    "category": "Sorcery",
+    "order": 13
+  },
+  {
+    "id": "soul-stream",
+    "name": "Soul Stream",
+    "category": "Sorcery",
+    "order": 14
+  },
+  {
+    "id": "soul-greatsword",
+    "name": "Soul Greatsword",
+    "category": "Sorcery",
+    "order": 15
+  },
+  {
+    "id": "farron-flashsword",
+    "name": "Farron Flashsword",
+    "category": "Sorcery",
+    "order": 16
+  },
+  {
+    "id": "magic-weapon",
+    "name": "Magic Weapon",
+    "category": "Sorcery",
+    "order": 17
+  },
+  {
+    "id": "great-magic-weapon",
+    "name": "Great Magic Weapon",
+    "category": "Sorcery",
+    "order": 18
+  },
+  {
+    "id": "crystal-magic-weapon",
+    "name": "Crystal Magic Weapon",
+    "category": "Sorcery",
+    "order": 19
+  },
+  {
+    "id": "magic-shield",
+    "name": "Magic Shield",
+    "category": "Sorcery",
+    "order": 20
+  },
+  {
+    "id": "great-magic-shield",
+    "name": "Great Magic Shield",
+    "category": "Sorcery",
+    "order": 21
+  },
+  {
+    "id": "spook",
+    "name": "Spook",
+    "category": "Sorcery",
+    "order": 22
+  },
+  {
+    "id": "aural-decoy",
+    "name": "Aural Decoy",
+    "category": "Sorcery",
+    "order": 23
+  },
+  {
+    "id": "pestilent-mist",
+    "name": "Pestilent Mist",
+    "category": "Sorcery",
+    "order": 24
+  },
+  {
+    "id": "cast-light",
+    "name": "Cast Light",
+    "category": "Sorcery",
+    "order": 25
+  },
+  {
+    "id": "repair",
+    "name": "Repair",
+    "category": "Sorcery",
+    "order": 26
+  },
+  {
+    "id": "hidden-weapon",
+    "name": "Hidden Weapon",
+    "category": "Sorcery",
+    "order": 27
+  },
+  {
+    "id": "hidden-body",
+    "name": "Hidden Body",
+    "category": "Sorcery",
+    "order": 28
+  },
+  {
+    "id": "chameleon",
+    "name": "Chameleon",
+    "category": "Sorcery",
+    "order": 29
+  },
+  {
+    "id": "twisted-wall-of-light",
+    "name": "Twisted Wall of Light",
+    "category": "Sorcery",
+    "order": 30
+  },
+  {
+    "id": "deep-soul",
+    "name": "Deep Soul",
+    "category": "Sorcery",
+    "order": 31
+  },
+  {
+    "id": "great-deep-soul",
+    "name": "Great Deep Soul",
+    "category": "Sorcery",
+    "order": 32
+  },
+  {
+    "id": "affinity",
+    "name": "Affinity",
+    "category": "Sorcery",
+    "order": 33
+  },
+  {
+    "id": "dark-edge",
+    "name": "Dark Edge",
+    "category": "Sorcery",
+    "order": 34
+  },
+  {
+    "id": "frozen-weapon",
+    "name": "Frozen Weapon",
+    "category": "Sorcery",
+    "order": 35,
+    "isDLC": true,
+    "dlcName": "Ashes of Ariandel"
+  },
+  {
+    "id": "snap-freeze",
+    "name": "Snap Freeze",
+    "category": "Sorcery",
+    "order": 36,
+    "isDLC": true,
+    "dlcName": "Ashes of Ariandel"
+  },
+  {
+    "id": "great-soul-dregs",
+    "name": "Great Soul Dregs",
+    "category": "Sorcery",
+    "order": 37,
+    "isDLC": true,
+    "dlcName": "The Ringed City"
+  },
+  {
+    "id": "old-moonlight",
+    "name": "Old Moonlight",
+    "category": "Sorcery",
+    "order": 38,
+    "isDLC": true,
+    "dlcName": "The Ringed City"
+  },
+  {
     "id": "fireball",
     "name": "Fireball",
     "category": "Pyromancy",
@@ -412,241 +648,5 @@
     "name": "Lightning Arrow",
     "category": "Miracle",
     "order": 38
-  },
-  {
-    "id": "soul-arrow",
-    "name": "Soul Arrow",
-    "category": "Sorcery",
-    "order": 1
-  },
-  {
-    "id": "great-soul-arrow",
-    "name": "Great Soul Arrow",
-    "category": "Sorcery",
-    "order": 2
-  },
-  {
-    "id": "heavy-soul-arrow",
-    "name": "Heavy Soul Arrow",
-    "category": "Sorcery",
-    "order": 3
-  },
-  {
-    "id": "great-heavy-soul-arrow",
-    "name": "Great Heavy Soul Arrow",
-    "category": "Sorcery",
-    "order": 4
-  },
-  {
-    "id": "farron-dart",
-    "name": "Farron Dart",
-    "category": "Sorcery",
-    "order": 5
-  },
-  {
-    "id": "great-farron-dart",
-    "name": "Great Farron Dart",
-    "category": "Sorcery",
-    "order": 6
-  },
-  {
-    "id": "farron-hail",
-    "name": "Farron Hail",
-    "category": "Sorcery",
-    "order": 7
-  },
-  {
-    "id": "homing-soulmass",
-    "name": "Homing Soulmass",
-    "category": "Sorcery",
-    "order": 8
-  },
-  {
-    "id": "homing-crystal-soulmass",
-    "name": "Homing Crystal Soulmass",
-    "category": "Sorcery",
-    "order": 9
-  },
-  {
-    "id": "crystal-hail",
-    "name": "Crystal Hail",
-    "category": "Sorcery",
-    "order": 10
-  },
-  {
-    "id": "soul-spear",
-    "name": "Soul Spear",
-    "category": "Sorcery",
-    "order": 11
-  },
-  {
-    "id": "crystal-soul-spear",
-    "name": "Crystal Soul Spear",
-    "category": "Sorcery",
-    "order": 12
-  },
-  {
-    "id": "white-dragon-breath",
-    "name": "White Dragon Breath",
-    "category": "Sorcery",
-    "order": 13
-  },
-  {
-    "id": "soul-stream",
-    "name": "Soul Stream",
-    "category": "Sorcery",
-    "order": 14
-  },
-  {
-    "id": "soul-greatsword",
-    "name": "Soul Greatsword",
-    "category": "Sorcery",
-    "order": 15
-  },
-  {
-    "id": "farron-flashsword",
-    "name": "Farron Flashsword",
-    "category": "Sorcery",
-    "order": 16
-  },
-  {
-    "id": "magic-weapon",
-    "name": "Magic Weapon",
-    "category": "Sorcery",
-    "order": 17
-  },
-  {
-    "id": "great-magic-weapon",
-    "name": "Great Magic Weapon",
-    "category": "Sorcery",
-    "order": 18
-  },
-  {
-    "id": "crystal-magic-weapon",
-    "name": "Crystal Magic Weapon",
-    "category": "Sorcery",
-    "order": 19
-  },
-  {
-    "id": "magic-shield",
-    "name": "Magic Shield",
-    "category": "Sorcery",
-    "order": 20
-  },
-  {
-    "id": "great-magic-shield",
-    "name": "Great Magic Shield",
-    "category": "Sorcery",
-    "order": 21
-  },
-  {
-    "id": "spook",
-    "name": "Spook",
-    "category": "Sorcery",
-    "order": 22
-  },
-  {
-    "id": "aural-decoy",
-    "name": "Aural Decoy",
-    "category": "Sorcery",
-    "order": 23
-  },
-  {
-    "id": "pestilent-mist",
-    "name": "Pestilent Mist",
-    "category": "Sorcery",
-    "order": 24
-  },
-  {
-    "id": "cast-light",
-    "name": "Cast Light",
-    "category": "Sorcery",
-    "order": 25
-  },
-  {
-    "id": "repair",
-    "name": "Repair",
-    "category": "Sorcery",
-    "order": 26
-  },
-  {
-    "id": "hidden-weapon",
-    "name": "Hidden Weapon",
-    "category": "Sorcery",
-    "order": 27
-  },
-  {
-    "id": "hidden-body",
-    "name": "Hidden Body",
-    "category": "Sorcery",
-    "order": 28
-  },
-  {
-    "id": "chameleon",
-    "name": "Chameleon",
-    "category": "Sorcery",
-    "order": 29
-  },
-  {
-    "id": "twisted-wall-of-light",
-    "name": "Twisted Wall of Light",
-    "category": "Sorcery",
-    "order": 30
-  },
-  {
-    "id": "deep-soul",
-    "name": "Deep Soul",
-    "category": "Sorcery",
-    "order": 31
-  },
-  {
-    "id": "great-deep-soul",
-    "name": "Great Deep Soul",
-    "category": "Sorcery",
-    "order": 32
-  },
-  {
-    "id": "affinity",
-    "name": "Affinity",
-    "category": "Sorcery",
-    "order": 33
-  },
-  {
-    "id": "dark-edge",
-    "name": "Dark Edge",
-    "category": "Sorcery",
-    "order": 34
-  },
-  {
-    "id": "frozen-weapon",
-    "name": "Frozen Weapon",
-    "category": "Sorcery",
-    "order": 35,
-    "isDLC": true,
-    "dlcName": "Ashes of Ariandel"
-  },
-  {
-    "id": "snap-freeze",
-    "name": "Snap Freeze",
-    "category": "Sorcery",
-    "order": 36,
-    "isDLC": true,
-    "dlcName": "Ashes of Ariandel"
-  },
-  {
-    "id": "great-soul-dregs",
-    "name": "Great Soul Dregs",
-    "category": "Sorcery",
-    "order": 37,
-    "isDLC": true,
-    "dlcName": "The Ringed City"
-  },
-  {
-    "id": "old-moonlight",
-    "name": "Old Moonlight",
-    "category": "Sorcery",
-    "order": 38,
-    "isDLC": true,
-    "dlcName": "The Ringed City"
   }
 ]
